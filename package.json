@@ -1,0 +1,31 @@
+{
+  "name": "blindtest",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "github-deploy": "yarn run build --env=gh:prod && yarn run img-dist && gh-pages -d dist",
+    "firebase-deploy": "yarn run build && yarn run img-dist && firebase deploy"
+  },
+  "dependencies": {
+    "@mdi/font": "7.3.67",
+    "noty": "^3.2.0-beta-deprecated",
+    "pinia": "^2.1.7",
+    "roboto-fontface": "*",
+    "sass": "^1.69.5",
+    "socket.io-client": "^4.7.2",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5",
+    "vuetify": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "@vitejs/plugin-vue": "^4.4.1",
+    "firebase": "^10.6.0",
+    "firebase-tools": "^12.8.1",
+    "unplugin-fonts": "^1.0.3",
+    "vite": "^4.5.0",
+    "vite-plugin-vuetify": "^1.0.2"
+  }
+}

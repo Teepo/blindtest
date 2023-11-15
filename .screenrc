@@ -1,0 +1,13 @@
+escape ^po
+bind o windowlist
+altscreen on
+term xterm-256color
+termcapingo xterm-color|xterm|xterms|xs|rxvt ti@:te@
+
+screen -t GIT 0
+screen -t CONFIG 1
+screen -t HTML 4
+screen -t SASS 5
+screen -t JS 6
+screen -t WATCHER 9
+screen -t SOCKET 10
