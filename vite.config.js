@@ -1,6 +1,9 @@
+import path from 'path';
+
 // Plugins
 import vue from '@vitejs/plugin-vue'
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
+import ViteFonts from 'unplugin-fonts/vite'
 
 // Utilities
 import { defineConfig } from 'vite'
@@ -17,17 +20,30 @@ export default defineConfig({
     }),
     vuetify({
       autoImport: true,
+      styles: {
+        configFile: 'src/scss/settings.scss',
+      },
+    }),
+    ViteFonts({
+      google: {
+        families: [{
+          name: 'Source+Sans+3',
+          styles: 'wght@300;400;700',
+        }],
+      },
     }),
   ],
   define: { 'process.env': {} },
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      '~noty': path.resolve(__dirname, 'node_modules/noty'),
     },
     extensions: [
       '.js',
       '.json',
       '.vue',
+      '.scss',
     ],
   },
   server: {

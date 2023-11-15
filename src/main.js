@@ -4,6 +4,8 @@
  * Bootstraps Vuetify and other plugins then mounts the App`
  */
 
+import './scss/app.scss';
+
 Map.prototype.toArray = function() {
     return Array.from(this.values());
 };

@@ -14,6 +14,10 @@ const routes = [
         path: '/lobby',
         name: 'lobby',
         component: () => import('@/views/Lobby.vue'),
+      }, {
+        path: '/playlist',
+        name: 'playlist',
+        component: () => import('@/views/Playlist.vue'),
       },
     ],
   },

@@ -2326,10 +2326,10 @@ find-up@^4.0.0:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
 
-firebase-tools@^12.8.1:
-  version "12.8.1"
-  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-12.8.1.tgz#e519a4dde7c71265e9972f74cab1edb484ebc0f6"
-  integrity sha512-LuC/HdI5r7ox3KwCzOqFcmvSbY18sj3kQh2/LOcn6Y5R/YwYNhdt/GU3+yG5oPda82qF2oXtfZzW87XdBn7qsw==
+firebase-tools@^12.9.0:
+  version "12.9.0"
+  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-12.9.0.tgz#a9ae7062ad0a84ca327390085645bddeef5ca958"
+  integrity sha512-HkKlO3UxL7p4O6gESwpGkTecL7dmncKyhXeuKMRhKUWLMOfeiyMpHftIZlhlqDO+wKmRzQKOpLFHlqIaMv5T+A==
   dependencies:
     "@google-cloud/pubsub" "^3.0.1"
     abort-controller "^3.0.0"
@@ -5194,10 +5194,10 @@ vue@^3.3.8:
     "@vue/server-renderer" "3.3.8"
     "@vue/shared" "3.3.8"
 
-vuetify@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.4.0.tgz#8530fe0b169ed907383d102953da82aea54717f6"
-  integrity sha512-aW3bJGCUN3fhl62yvsb+Hv6TtMWDqiadN0PTbEB8jd9z46/X1ddzQ/fhMjkqBX69sMFtZvENl3YFGU5c88/8qw==
+vuetify@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.4.1.tgz#0f695c7d2233d7837a8df415e49b36e5e1aa3b49"
+  integrity sha512-mF/vKa923F/90JVZnF6xZVoEY5aWbtDt0feh6CFOh6PFmZ7fRUVWIvhlQcH4zwHMXF+HpTL9Mer1CwOpi4D4oQ==
 
 wcwidth@^1.0.1:
   version "1.0.1"
