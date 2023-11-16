@@ -243,107 +243,140 @@
     }],
     "Step by Step - 1": [{
         "artist": "Lady Gaga",
-        "title": "Applause"
+        "title": "Applause",
+        "coverURL": "https://i.discogs.com/gYTfxgnTOEyBk5hl4THSlRIYX8rOXdKf_0aEkwJXiI0/rs:fit/g:sm/q:90/h:524/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5MDc4/NjQtMTM3OTUxMzk0/My00MDIzLmpwZWc.jpeg"
     }, {
         "artist": "Maroon 5",
-        "title": "Sugar"
+        "title": "Sugar",
+        "coverURL": "https://i.discogs.com/1c_LbqpFw9BUs7hX2rBMGy88yyQHm_7z94-ICU0KpB8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNDU1/NzktMTY2Mzg1Nzkz/OS0yNDkzLmpwZWc.jpeg"
     }, {
         "artist": "Lil Nas X",
-        "title": "Old Town Road"
+        "title": "Old Town Road",
+        "coverURL": "https://i.discogs.com/cVo6MPQ5lWQAdDS6g6IOjXqBreWTwFPE8pNQhnect9I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjI1/ODc3LTE2MDU1Nzkz/OTItMTE4Ny5qcGVn.jpeg"
     }, {
         "artist": "MGMT",
-        "title": "Kids"
+        "title": "Kids",
+        "coverURL": "https://i.discogs.com/7aFy6qEikKd5LVSwAmlzIOsTBdOJkYly1B25qmTdZx0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk4NTQ4/MC0xNTE3OTM5ODMy/LTgxOTYuanBlZw.jpeg"
     }, {
         "artist": "Hozier",
-        "title": "Take Me To Church"
+        "title": "Take Me To Church",
+        "coverURL": "https://i.discogs.com/yxSdMOwg1AABckCNo0wclMWDiSr5q8XDS0X6EnDqqaI/rs:fit/g:sm/q:90/h:565/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxNjA3/ODItMTQ3MTMwNjIz/NC0yNjUzLmpwZWc.jpeg"
     }],
     "Step by Step - 2": [{
         "artist": "The Killers",
-        "title": "Mr. Brightside"
+        "title": "Mr. Brightside",
+        "coverURL": "https://i.discogs.com/sYhiirGp79lspBpq79_wg7cl7e8SfLfFtBddNbgGTc8/rs:fit/g:sm/q:90/h:551/w:563/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NTg0/Ni0xMTc2MjA2OTI3/LmpwZWc.jpeg"
     }, {
         "artist": "Ariana Grande",
-        "title": "Into You"
+        "title": "Into You",
+        "coverURL": "https://i.discogs.com/Vgz_QrzeElVqpjLo1oa7a19nNNse-1uaJEJwb_groeY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NDY4/NTktMTQ2Mzc5MDA1/My0yOTI0LmpwZWc.jpeg"
     }, {
         "artist": "Massive Attack",
-        "title": "Teardrop"
+        "title": "Teardrop",
+        "coverURL": "https://i.discogs.com/HIVE109wjs4Fd2-ciHMK8PV3WsXbHujQbsJrTi-EIXI/rs:fit/g:sm/q:90/h:461/w:445/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTAy/Ny0xMjE1OTUxNzE3/LmpwZWc.jpeg"
     }, {
         "artist": "Rage Against The Machine",
-        "title": "Killing In the Name"
+        "title": "Killing In the Name",
+        "coverURL": "https://i.discogs.com/drSu4I1xeUeYnythtwojPgOns_ZV9tN4dvOIEiqd34Y/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2NzMz/OS0xMjU5MjM2MTE1/LmpwZWc.jpeg"
     }, {
         "artist": "The Jackson 5",
-        "title": "I Want You Back"
+        "title": "I Want You Back",
+        "coverURL": "https://i.discogs.com/0dtQsZijUNglIv6y05YmjFj_-kIGI7vmemL9w5JzQns/rs:fit/g:sm/q:90/h:602/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExOTAy/MzUtMTU5ODc1NjIy/MS05NDYyLmpwZWc.jpeg"
     }],
     "Rewind - 1": [{
         "artist": "Linkin Park",
-        "title": "Numb"
+        "title": "Numb",
+        "coverURL": "https://i.discogs.com/cq9c0iABTDa6Ih6D5cJsNx4OANtKVFgUONoK4-cR8nw/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg0OTA5/MS0xMzQ1NjE2ODE2/LTMwMTUuanBlZw.jpeg"
     }, {
         "artist": "DJ BoBo",
-        "title": "CHIHUAHUA"
+        "title": "CHIHUAHUA",
+        "coverURL": "https://i.discogs.com/jhYQlqEx2-ipWZP_ucu9eekML56HPJeKXlPczu-mYfI/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDgy/MzktMTIwODM4MDIw/NS5qcGVn.jpeg"
     }, {
         "artist": "Michel Sardou",
-        "title": "La maladie d'amour"
+        "title": "La maladie d'amour",
+        "coverURL": "https://i.discogs.com/BHG3js19tvw-Y7PWjhXeXUmWfWs0aYW1vbDVHulnrQo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzEw/NDAtMTMzODIyOTgx/MC0xNzMxLmpwZWc.jpeg"
     }, {
         "artist": "Sum 41",
-        "title": "Pieces"
+        "title": "Pieces",
+        "coverURL": "https://i.discogs.com/6yRLGlHUYEDcsKqVGLb7aH7oIMntsU-jdqW0FmiKKbI/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MDk1/MjMtMTUwMzg0MzU4/Mi01ODg1LmpwZWc.jpeg"
     }, {
         "artist": "Daddy DJ",
-        "title": "Daddy DJ"
+        "title": "Daddy DJ",
+        "coverURL": "https://i.discogs.com/MplIJNdRsk708Q2hkxJFETUIleUzc72VOUuE_3ZCunI/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzMjY3/OC0xMTYzMzc0MTY5/LmpwZWc.jpeg"
     }, {
         "artist": "Lady Gaga",
-        "title": "Born This Way"
+        "title": "Born This Way",
+        "coverURL": "https://i.discogs.com/pot8C6a18dxAij12ctr8QGfIKoVSOSrcPvFgfCb141w/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMDgw/NzgtMTMzMDUzMTA0/MC5qcGVn.jpeg"
     }, {
         "artist": "Claude François",
-        "title": "Bélinda"
+        "title": "Bélinda",
+        "coverURL": "https://i.discogs.com/ZtYNw8T6l6NoAtAvwaVWzbJx4uR1D8Kq0v40YtsK9IE/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0NDQz/MzktMTM5MzUyOTEw/OC0xNzc1LmpwZWc.jpeg"
     }, {
         "artist": "Gigi D'Agostino",
-        "title": "The Riddle"
+        "title": "The Riddle",
+        "coverURL": "https://i.discogs.com/-6KM7_eXFBJSPT8QkmVgUoOOrqqoZNWExQrfg_hTFoc/rs:fit/g:sm/q:90/h:522/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNDg5/MDAtMTU5MTM2NzM2/NC0yMDk0LmpwZWc.jpeg"
     }, {
         "artist": "Blink-182",
-        "title": "All The Small Things"
+        "title": "All The Small Things",
+        "coverURL": "https://i.discogs.com/HYuikRIURB3HwY_WbmjzR5KwJCfYvPeh_GmAfWVhP_4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MjQ1/My0xNTAxNDI0ODg2/LTI4ODUuanBlZw.jpeg"
     }, {
         "artist": "Maurane ",
-        "title": "Sur Un Prélude De Bach"
+        "title": "Sur Un Prélude De Bach",
+        "coverURL": "https://i.discogs.com/F2qDU63_bFa-MVgrGKHsggSvGQBuvhLFvJDQiBlIhus/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxNTU0/MTktMTM4NjA4NDAy/MS0yNzkzLmpwZWc.jpeg"
     }],
     "Rewind - 2": [{
         "artist": "Laurent Voulzy",
-        "title": "Marie Galante"
+        "title": "Marie Galante",
+        "coverURL": "https://i.discogs.com/YDIKKB7pxFHJx7R192UFeE4bhhYbbCBZdghbQHkEGv0/rs:fit/g:sm/q:90/h:545/w:553/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNDk5/MDktMTE4ODEyMTM1/MC5qcGVn.jpeg"
     }, {
         "artist": "The Pussycat Dolls",
-        "title": "Don't Cha"
+        "title": "Don't Cha",
+        "coverURL": "https://i.discogs.com/aSy5eS1h9n5ZcEFGxxmeHQOUu_P-_KsbpR52YVKRAfM/rs:fit/g:sm/q:90/h:539/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMwODM4/NS0xNjQyNDY0Nzcz/LTcyODQuanBlZw.jpeg"
     }, {
         "artist": "Gwen Stefani",
-        "title": "Hollaback Girl"
+        "title": "Hollaback Girl",
+        "coverURL": "https://i.discogs.com/PzEjPuzeAc44K8aYr0CdfKTwbjn33OqAjGmd61gOrFE/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5MzA1/Mi0xMzQzMzA1NzY4/LTkxNTYuanBlZw.jpeg"
     }, {
         "artist": "Booba",
-        "title": "Scarface"
+        "title": "Scarface",
+        "coverURL": "https://i.discogs.com/TIl84EI6Z5aGNo0W8hOPw29bBAYmkFVdETm6N6z_5r8/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwNDQx/MzEtMTM1MzM2MjQz/MS05ODU2LmpwZWc.jpeg"
     }, {
         "artist": "Franz Ferdinand",
-        "title": "Take Me Out"
+        "title": "Take Me Out",
+        "coverURL": "https://i.discogs.com/rEMahcTN5wEoLffjqX0NH09iQZQqgEEXTyeWs2PZ_vo/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NTI4/Ny0xNDIwMzkwNTA5/LTU2ODMuanBlZw.jpeg"
     }],
     "Cette année-là - 1": [{
         "artist": "Maître Gims",
-        "title": "J'me tire (2013)"
+        "title": "J'me tire (2013)",
+        "coverURL": "https://i.discogs.com/rvnpwoQDpKLkO_kqYhZUBzKE6tQ5rBY5R0ThME5OhEE/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2MTcz/NzctMTY3NzA5MjI5/My02NTkzLmpwZWc.jpeg"
     }, {
         "artist": "The Pointer Sisters",
-        "title": "I'm So Excited (1982)"
+        "title": "I'm So Excited (1982)",
+        "coverURL": "https://i.discogs.com/NoUJJNPIbXrS-jklX6TcsEZVTkDi_Fayl-rP_UU8RHc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MzQx/MjAtMTIyOTA3Nzc1/Mi5qcGVn.jpeg"
     }, {
         "artist": "Stromae",
-        "title": "Alors on danse (2009)"
+        "title": "Alors on danse (2009)",
+        "coverURL": "https://i.discogs.com/-_dpvQksFdtASRVXs_Cg8hdRi4WZu3RgEGqkFC9qvTk/rs:fit/g:sm/q:90/h:415/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNzc0/MjktMTYzODM3ODQy/Ni0yNzM2LmpwZWc.jpeg"
     }, {
         "artist": "Beyoncé",
-        "title": "Halo (2009)"
+        "title": "Halo (2009)",
+        "coverURL": "https://i.discogs.com/5U9JWXnv9gX8QMdKF4RviBtSJO_3f9o36KZdefXeJpU/rs:fit/g:sm/q:90/h:526/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NTQ1/MDktMTM5NzkzMTAx/Ny03MjU2LmpwZWc.jpeg"
     }, {
         "artist": "Chopin",
-        "title": "Fantaisie-Impromptu Op. 66 (1834)"
+        "title": "Fantaisie-Impromptu Op. 66 (1834)",
+        "coverURL": "https://i.discogs.com/I1eZDw6LyJr72vFsMBwMNtLMC_QbYRqk72zDhS4TBPY/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2NjUx/MTctMTQ2NjE4NjQx/NC02NDEyLmpwZWc.jpeg"
     }, {
         "artist": "Justice",
-        "title": "D.A.N.C.E (2007)"
+        "title": "D.A.N.C.E (2007)",
+        "coverURL": "https://i.discogs.com/Y2LWLvtx3pffMm9ShfoYtzx-hSeg_rGnaLLIDY2xfEo/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2Mjg0/Mi0xMTg3MjU5OTEy/LmpwZWc.jpeg"
     }, {
         "artist": "Claude François",
-        "title": "Cette année là (1976)"
+        "title": "Cette année là (1976)",
+        "coverURL": "https://i.discogs.com/HQmRIRoR6CIIvrm4Yo5Gb3tDrUzBqj1zpSQzD18OyEU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg3NTUy/NjgtMTQ2ODA3MjA3/OS02MTEwLmpwZWc.jpeg"
     }, {
         "artist": "Diam's",
-        "title": "DJ (2003)"
+        "title": "DJ (2003)",
+        "coverURL": "https://i.discogs.com/9-Ozz3Fb9ay6lECepC8FlLca_qtACJNfbpItEzu_LAI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc4MTcy/Ny0xNDcyOTE0NDU5/LTU3NDYuanBlZw.jpeg"
     }, {
         "artist": "Francis Cabrel",
         "title": "Je l'aime à mourir (1979)"
@@ -353,106 +386,139 @@
     }],
     "Cette année-là - 2": [{
         "artist": "K.Maro",
-        "title": "Femme Like U (2004)"
+        "title": "Femme Like U (2004)",
+        "coverURL": "https://i.discogs.com/XIwSNL0jOl_DE4YZ6Xl0PZ3vDUQ3UufyaJe3cxb-LUY/rs:fit/g:sm/q:90/h:605/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc4NjMx/Ny0xMjYzMDgzMTE2/LmpwZWc.jpeg"
     }, {
         "artist": "Daniel Balavoine",
-        "title": "Quand on arrive en ville (1978)"
+        "title": "Quand on arrive en ville (1978)",
+        "coverURL": "https://i.discogs.com/Zmlr5fjNAIhvuEKwtVfNEyPu3RRC0h2iL_IG38HrSd8/rs:fit/g:sm/q:90/h:609/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjYz/Nzk1LTE1Mzk2Mjgx/OTgtMjk0NS5qcGVn.jpeg"
     }, {
         "artist": "Ke$ha",
-        "title": "TiK ToK (2009)"
+        "title": "TiK ToK (2009)",
+        "coverURL": "https://i.discogs.com/gttZxS02G6v8sMAPwoabaYGPDU-IR1kNGCTvPpuAYZg/rs:fit/g:sm/q:90/h:528/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwOTI4/MTAtMTY2MjAxODQz/My02MDYzLmpwZWc.jpeg"
     }, {
         "artist": "Elvis Presley",
-        "title": "Jailhouse Rock (1957)"
+        "title": "Jailhouse Rock (1957)",
+        "coverURL": "https://i.discogs.com/k2aJq7TmDugCcBYjEBAAFJH2WQgw0NWq-62iMldylzw/rs:fit/g:sm/q:90/h:300/w:295/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NzQy/Mjc0LTE1ODA2ODM3/MzgtODExOS5qcGVn.jpeg"
     }, {
         "artist": "IAM",
-        "title": "Je danse le Mia (1993)"
+        "title": "Je danse le Mia (1993)",
+        "coverURL": "https://i.discogs.com/oBHWVXtbGLgXTLCF-DhehIDsf2ENHh0fohHCmVQY20g/rs:fit/g:sm/q:90/h:472/w:461/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNDg4/MC0xMzMwNjE0NDkz/LmpwZWc.jpeg"
     }, {
         "artist": "Metallica",
-        "title": "Nothing Else Matters (1992)"
+        "title": "Nothing Else Matters (1992)",
+        "coverURL": "https://i.discogs.com/Q7NX-LKC2_Jfiw1KWYvDpiWvm0ozroWFQseWZh8gd-w/rs:fit/g:sm/q:90/h:523/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ3MzI4/Ny0xMzYyNDk0NTIw/LTExMjEuanBlZw.jpeg"
     }, {
         "artist": "Simon & Garfunkel",
-        "title": "The Sounds of Silence (1964)"
+        "title": "The Sounds of Silence (1964)",
+        "coverURL": "https://i.discogs.com/U7CPd0zgRVnWUSIeELHrTU_dFr7JOCh5gYrXhOhJiVE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkxNjA5/NC0xMTcyNzEzNDQx/LmpwZWc.jpeg"
     }, {
         "artist": "Blondie",
-        "title": "Call me (1980)"
+        "title": "Call me (1980)",
+        "coverURL": "https://i.discogs.com/WS0qMNkgXTUYjiRSwsEvrTSW21fF1KCIFXWCIQb82tE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNDMx/OS0xMjU2MzA5MzQ3/LmpwZWc.jpeg"
     }, {
         "artist": "Seth Gueko",
-        "title": "Patate de forain (2005)"
+        "title": "Patate de forain (2005)",
+        "coverURL": "https://i.discogs.com/Glj6-Z_K8PzZWa6h32as2oNfkFosaq2i9y7X3qfdtGQ/rs:fit/g:sm/q:90/h:580/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MDk5/NjctMTU0MjIyNjA3/OS01MTIxLmpwZWc.jpeg"
     }, {
         "artist": "Antonín Dvořák",
-        "title": "La Symphonie du Nouveau Monde (1893)"
+        "title": "La Symphonie du Nouveau Monde (1893)",
+        "coverURL": "https://i.discogs.com/Yb_lM3ygJ6451NgfU737dAundTdAcolhxvWaahWhJyM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExOTAy/NTU3LTE1MjQ0Nzgy/MDMtNzg3OS5qcGVn.jpeg"
     }],
     "Boite à musique - 1": [{
         "artist": "The Rolling Stones",
-        "title": "Paint It, Black"
+        "title": "Paint It, Black",
+        "coverURL": "https://i.discogs.com/kcTzVWSxKK2WU0c3_2gK2WHA1lBIUHULykv8sOyMYHg/rs:fit/g:sm/q:90/h:581/w:581/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2ODIz/Mi0xNTY0MTE2NjU5/LTUxMTQuanBlZw.jpeg"
     }, {
         "artist": "BTS",
-        "title": "Blood Sweat & Tears"
+        "title": "Blood Sweat & Tears",
+        "coverURL": "https://i.discogs.com/_OhAlYgjN6pwnvhGSoiwjV-EFNAovHmn06MtwoVTFWI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNDQ2/OTQzLTE1NTQzODMy/MDMtMjI2Ni5qcGVn.jpeg"
     }, {
         "artist": "John Legend",
-        "title": "All of Me"
+        "title": "All of Me",
+        "coverURL": "https://i.discogs.com/_cydOktnAe5XvPrm6aKjV4NoiPXFAsDIfJ2kyaQ7u0k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1Nzcy/MzEtMTY0MjU2NTE5/My04MTQ4LmpwZWc.jpeg"
     }, {
         "artist": "Papa Roach",
-        "title": "Last Resort"
+        "title": "Last Resort",
+        "coverURL": "https://i.discogs.com/J4lRFvZF8ydE6pQrIAL03xGvNSSUcFROK__L8pfDhps/rs:fit/g:sm/q:90/h:436/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5Nzk5/MS0xMTM5MDgzNTMy/LmpwZWc.jpeg"
     }, {
         "artist": "Le Temps des Cathédrales",
-        "title": "Bruno Pelletier"
+        "title": "Bruno Pelletier",
+        "coverURL": "https://i.discogs.com/Mvi6bOJkgzoYVzPJGfc2f7S7lomhh2uXMZtDPG0DEug/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTkx/NTYzLTE1MDA1Mzc1/NzctOTExMC5qcGVn.jpeg"
     }],
     "Boite à musique - 2": [{
         "artist": "Lady Gaga & Bradley Cooper",
-        "title": "Shallow"
+        "title": "Shallow",
+        "coverURL": "https://i.discogs.com/BsTWs7B0Dl9XMAVKM-R5zJIeyPIdUwi-5cgeGKG-F-A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjE3/MjEzLTE1NDAwOTE2/MTUtNTMxNC5qcGVn.jpeg"
     }, {
         "artist": "Linkin Park",
-        "title": "In the End"
+        "title": "In the End",
+        "coverURL": "https://i.discogs.com/INz6CiIut8qN5JOCgt2-741kiFdHpuBP4VNa7DfZUL0/rs:fit/g:sm/q:90/h:598/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyMTM4/Ny0xMzM5OTAyOTI2/LTIzOTUuanBlZw.jpeg"
     }, {
         "artist": "Dragonforce",
-        "title": "Through the Fire and Flames"
+        "title": "Through the Fire and Flames",
+        "coverURL": "https://i.discogs.com/WaQL9Lplyc7dBLewGjz0swoX1Xi51a6hIu29XOzM_gY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMTkx/NjctMTUyOTI0MjIw/Ny03NjY5LmpwZWc.jpeg"
     }, {
         "artist": "AWOLNATION",
-        "title": "Sail"
+        "title": "Sail",
+        "coverURL": "https://i.discogs.com/Jz_vDifpNNThc-Oil3Pg6i7Sam31T9K2i7DgFsHNwFo/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NjQ0/NzUtMTMyOTg1MzMx/Ny5qcGVn.jpeg"
     }, {
         "artist": "Adele",
-        "title": "Set Fire To The Rain"
+        "title": "Set Fire To The Rain",
+        "coverURL": "https://i.discogs.com/vGlFXdpzOQrDu24Vns03HNxUSknna_uSBbAsxSkFPkU/rs:fit/g:sm/q:90/h:504/w:492/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5ODkx/MzAtMTY0OTIxMDc4/OC00MDA2LnBuZw.jpeg"
     }],
     "A poil ou a plume": [{
         "artist": "Nicki Minaj",
-        "title": "Anaconda"
+        "title": "Anaconda",
+        "coverURL": "https://i.discogs.com/Nh85NZhBqmEeDiTdBwNG9r0LBLaRPBx4lVoQcGLJP7E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NDk5/NjMtMTQ5NTI3Njk4/MC02ODE1LmpwZWc.jpeg"
     }, {
         "artist": "Georges Brassens",
-        "title": "Le Gorille"
+        "title": "Le Gorille",
+        "coverURL": "https://i.discogs.com/dcbgX1R1_qLtnqoYsIhx4t_BnEly3pnTGdPqww2GMuE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MzM4/NDQ0LTE2NjE2Nzky/OTItNjkxMS5qcGVn.jpeg"
     }, {
         "artist": "Katy Perry",
-        "title": "Roar"
+        "title": "Roar",
+        "coverURL": "https://i.discogs.com/9e-Cte_AqQehM2cpVviuC2uwNuygdhBGddymgRbHV3g/rs:fit/g:sm/q:90/h:522/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5MDc5/NzYtMTM4NDQzNjE4/MS02NDQwLmpwZWc.jpeg"
     }, {
         "artist": "Arctic Monkeys",
-        "title": "R U Mine?"
+        "title": "R U Mine?",
+        "coverURL": "https://i.discogs.com/Zd8JxszxDjFIfiS54aDOF8qBQo9XvyQ0y1B_-FNtupU/rs:fit/g:sm/q:90/h:400/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NTI0/MjktMTMzNTAwNzI5/NC5qcGVn.jpeg"
     }, {
         "artist": "Elvis Presley",
-        "title": "Hound Dog"
+        "title": "Hound Dog",
+        "coverURL": "https://i.discogs.com/cB6fgmKPfaM30w1CSKVIYztylBCS75CdmHLVWNRHZt8/rs:fit/g:sm/q:90/h:89/w:185/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2ODcz/Mi0xNjYzMDk2MjQ0/LTI5MjIuanBlZw.jpeg"
     }, {
         "artist": "Pow woW",
-        "title": "Le lion est mort ce soir"
+        "title": "Le lion est mort ce soir",
+        "coverURL": "https://i.discogs.com/PJjp2V3GmDfkisj-KZcAbG0LbGdVH1xxvfbup7JyMvs/rs:fit/g:sm/q:90/h:607/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNDI4/NDUtMTYyNTQwNTg5/MC05NTk1LmpwZWc.jpeg"
     }, {
         "artist": "Survivor",
-        "title": "Eye Of The Tiger"
+        "title": "Eye Of The Tiger",
+        "coverURL": "https://i.discogs.com/KdEIPfqgptC6WXjZl9TWbaQ1LJ8E104MEz-BmQPysMI/rs:fit/g:sm/q:90/h:584/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNDM4/NjYtMTI2NjU0MTgw/NS5qcGVn.jpeg"
     }, {
         "artist": "Tri Yann",
-        "title": "La jument de Michao"
+        "title": "La jument de Michao",
+        "coverURL": "https://i.discogs.com/FF3eq6SvjH6-e7XBo8jXqOyiL-uSn8OsDcegXr5G-aY/rs:fit/g:sm/q:90/h:602/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3NzM5/NTAtMTQ5MzU1NzIy/Ny05NDkxLmpwZWc.jpeg"
     }, {
         "artist": "Led Zeppelin",
-        "title": "Black Dog"
+        "title": "Black Dog",
+        "coverURL": "https://i.discogs.com/4PkQoqRaemWC1fVFITjiiqhT8P7AXppHoM8U_ZWCErw/rs:fit/g:sm/q:90/h:301/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMzI1/MjItMTI1MDYxNTEx/NC5qcGVn.jpeg"
     }, {
         "artist": "Shakira",
-        "title": "She Wolf"
+        "title": "She Wolf",
+        "coverURL": "https://i.discogs.com/E9g21GeJ1fov2hlocLph1an-pIi0gwKNji6xI-h_HFM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMTcx/OTAtMTUzMTMzMDYy/Mi05OTkwLmpwZWc.jpeg"
     }, {
         "artist": "Pink Floyd",
-        "title": "Hey You"
+        "title": "Hey You",
+        "coverURL": "https://i.discogs.com/lely_jbOoFsw6WlxmCT-0LMUEPd8njCFNa7XXiIhh6o/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNTAx/Mi0xNTIzMjAyMjU0/LTQyODguanBlZw.jpeg"
     }, {
         "artist": "Snoop Dogg",
-        "title": "Drop It Like It's Hot"
+        "title": "Drop It Like It's Hot",
+        "coverURL": "https://i.discogs.com/DKrCMnYQLFT-P8lA_WogDs74rYt4bVHDtiF-AeFRVmE/rs:fit/g:sm/q:90/h:612/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MjMz/My0xNTk3MzcxNjIw/LTg0MzguanBlZw.jpeg"
     }, {
         "artist": "Seal",
-        "title": "Kiss From A Rose"
+        "title": "Kiss From A Rose",
+        "coverURL": "https://i.discogs.com/SsgTTJrbjq0Vv--SFnAWV8eR2WNmuuHD6crmz-klgJQ/rs:fit/g:sm/q:90/h:529/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3NTgx/MDItMTQ1NDM0NTU2/Mi01NTY1LmpwZWc.jpeg"
     }, {
         "artist": "Baha Men",
         "title": "Who Let The Dogs Out"
