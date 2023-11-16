@@ -1,54 +1,45 @@
 <template>
-    <v-container>
+    <v-container fluid>
         <v-responsive>
 
-            <v-row>
-                <v-col>
-                    <v-row class="align-start">
-                        <v-col>
-                            <h1 class="text-h4 font-weight-bold">By thematic</h1>
-                        </v-col>
+            <div class="mb-10">
 
-                        <v-row>
-                            <v-col cols="6" sm="3" md="2" v-for="i of 4" :key="i">
-                                <PlaylistCard></PlaylistCard>
-                            </v-col>
-                        </v-row>
-                    </v-row>
-                </v-col>
-            </v-row>
+                <h1 class="text-h4 font-weight-bold mb-5">By thematic</h1>
 
-            <v-row>
-                <v-col>
-                    <v-row class="align-start">
-                        <v-col>
-                            <h1 class="text-h4 font-weight-bold">Through the years</h1>
-                        </v-col>
-                    </v-row>
+                <v-row>
+                    <v-slide-group show-arrows>
+                        <v-slide-group-item v-for="n in 15" :key="n">
+                            <PlaylistCard></PlaylistCard>
+                        </v-slide-group-item>
+                    </v-slide-group>
+                </v-row>
+            </div>
 
-                    <v-row>
-                        <v-col cols="6" sm="3" md="2" v-for="i of 4" :key="i">
-                            <playlist-card></playlist-card>
-                        </v-col>
-                    </v-row>
-                </v-col>
-            </v-row>
+            <div class="mb-10">
 
-            <v-row>
-                <v-col>
-                    <v-row class="align-start">
-                        <v-col>
-                            <h1 class="text-h4 font-weight-bold">Choose your style</h1>
-                        </v-col>
-                    </v-row>
+                <h1 class="text-h4 font-weight-bold mb-5">Through the years</h1>
 
-                    <v-row>
-                        <v-col cols="6" sm="3" md="2" v-for="i of 4" :key="i">
-                            <playlist-card></playlist-card>
-                        </v-col>
-                    </v-row>
-                </v-col>
-            </v-row>
+                <v-row>
+                    <v-slide-group show-arrows>
+                        <v-slide-group-item v-for="n in 15" :key="n">
+                            <PlaylistCard></PlaylistCard>
+                        </v-slide-group-item>
+                    </v-slide-group>
+                </v-row>
+            </div>
+
+            <div class="mb-10">
+
+                <h1 class="text-h4 font-weight-bold mb-5">Choose your style</h1>
+
+                <v-row>
+                    <v-slide-group show-arrows>
+                        <v-slide-group-item v-for="n in 15" :key="n">
+                            <PlaylistCard></PlaylistCard>
+                        </v-slide-group-item>
+                    </v-slide-group>
+                </v-row>
+            </div>
 
         </v-responsive>
     </v-container>
@@ -56,11 +47,11 @@
 
 <script>
 
+import PlaylistCard from './../components/PlaylistCard.vue';
+
 export default {
 
-    components: {
-        PlaylistCard: () => import("../components/PlaylistCard.vue")
-    },
+    components: { PlaylistCard },
 
 	data() {
 
