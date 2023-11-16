@@ -1,198 +1,578 @@
 {
-    "Hold your colors": [
-        {"artist": "Green day", "title": "Boulevard of Broken Dreams"},
-        {"artist": "Limp Bizkit", "title": "Behind Blue Eyes"},
-        {"artist": "Lana Del Rey", "title": "Blue Jeans"},
-        {"artist": "Prince", "title": "Purple Rain"},
-        {"artist": "Lorenzo", "title": "Carton Rouge"},
-        {"artist": "Jeanne Mas", "title": "En rouge et noir"},
-        {"artist": "Cyndi Lauper", "title": "True Colors"},
-        {"artist": "Nekfeu", "title": "Ciel noir"},
-        {"artist": "Christophe", "title": "Les mots bleus"},
-        {"artist": "Dorothée", "title": "Les chaussettes rouges et jaunes à ptis pois"},
-        {"artist": "Eddy Mitchell", "title": "Couleur Menthe a l'eau"},
-        {"artist": "Pink", "title": "Family Portrait"},
-        {"artist": "The Beatles", "title": "Yellow Submarine"},
-        {"artist": "Michel Berger", "title": "Le Paradis Blanc"},
-        {"artist": "Chris Brown & Tyga", "title": "Ayo"},
-        {"artist": "The Black Eyed Peas", "title": "Let's Get It Started"},
-        {"artist": "Amy Winehouse", "title": "Back To Black"},
-        {"artist": "The White Stripes", "title": "Blue Orchid"},
-        {"artist": "James Brown", "title": "It's A Man's Man's Man's World"},
-        {"artist": "Eiffel 65", "title": "Blue (Da Ba Dee)"},
-        {"artist": "Red Hot Chili Peppers", "title": "Give It Away"},
-        {"artist": "The Rolling Stones", "title": "Paint It Black"},
-        {"artist": "UB40", "title": "Red Red Wine"},
-        {"artist": "Booba", "title": "Ma Couleur"},
-        {"artist": "Gilbert Becaud", "title": "L'orange du marchand"}
-    ],
-    "Hold Your colors - Rewind": [
-        {"artist": "Black Sabbath", "title": "Iron Man"},
-        {"artist": "Les Inconnus", "title": "Isabelle a les yeux bleus"},
-        {"artist": "NTM", "title": "Blanc et noir"},
-        {"artist": "Coldplay", "title": "Yellow"},
-        {"artist": "The Black Keys", "title": "Lonely Boy"},
-        {"artist": "Les Négresses Vertes", "title": "Voilà l'été"},
-        {"artist": "Jefferson Airplane", "title": "White Rabbit"},
-        {"artist": "Will Smith", "title": "Men In Black"},
-        {"artist": "Ninho", "title": "Violet"},
-        {"artist": "AC/DC", "title": "Back In Black"}
-    ],
-    "Moments de la journée": [
-        {"artist": "Kavinsky", "title": "Nightcall"},
-        {"artist": "Avicii", "title": "The Nights"},
-        {"artist": "Jacques Dutronc", "title": "Il est 5 heures, Paris s'éveille"},
-        {"artist": "Green Day", "title": "Basket Case"},
-        {"artist": "Sexion d'assaut", "title": "Wati by night"},
-        {"artist": "Angèle", "title": "Les matins"},
-        {"artist": "Alain Bashung", "title": "La nuit je mens"},
-        {"artist": "Indeep", "title": "Last Night A DJ Saved My Life"},
-        {"artist": "Yannick", "title": "Ces Soirées Là"},
-        {"artist": "The Strokes", "title": "Last Nite"},
-        {"artist": "Fun", "title": "Some Nights"},
-        {"artist": "The Velvet Underground", "title": "Sunday Morning"},
-        {"artist": "Fatal Bazooka", "title": "Ce matin va être une pure soirée"},
-        {"artist": "M83", "title": "Midnight City"},
-        {"artist": "Images", "title": "Les démons de minuit"},
-        {"artist": "System Of A Down", "title": "Lonely Day"},
-        {"artist": "Fonky Family", "title": "Tonight"},
-        {"artist": "Kiss", "title": "Rock And Roll All Nite"},
-        {"artist": "Début de Soirée", "title": "La Vie la Nuit"},
-        {"artist": "Timbaland", "title": "Morning After Dark"},
-        {"artist": "Boulevard des Airs", "title": "Demain de bon matin"},
-        {"artist": "The Kinks", "title": "Sunny Afternoon"},
-        {"artist": "AC/DC", "title": "You Shook Me All Night Long"},
-        {"artist": "Jean-Jacques Goldman", "title": "Encore un matin"},
-        {"artist": "Bee Gees", "title": "Night Fever"}
-    ],
-    "Step by Step - 1": [
-        {"artist": "Lady Gaga", "title": "Applause"},
-        {"artist": "Maroon 5", "title": "Sugar"},
-        {"artist": "Lil Nas X", "title": "Old Town Road"},
-        {"artist": "MGMT", "title": "Kids"},
-        {"artist": "Hozier", "title": "Take Me To Church"}
-    ],
-    "Step by Step - 2": [
-        {"artist": "The Killers", "title": "Mr. Brightside"},
-        {"artist": "Ariana Grande", "title": "Into You"},
-        {"artist": "Massive Attack", "title": "Teardrop"},
-        {"artist": "Rage Against The Machine", "title": "Killing In the Name"},
-        {"artist": "The Jackson 5", "title": "I Want You Back"}
-    ],
-    "Rewind - 1": [
-        {"artist": "Linkin Park", "title": "Numb"},
-        {"artist": "DJ BoBo", "title": "CHIHUAHUA"},
-        {"artist": "Michel Sardou", "title": "La maladie d'amour"},
-        {"artist": "Sum 41", "title": "Pieces"},
-        {"artist": "Daddy DJ", "title": "Daddy DJ"},
-        {"artist": "Lady Gaga", "title": "Born This Way"},
-        {"artist": "Claude François", "title": "Bélinda"},
-        {"artist": "Gigi D'Agostino", "title": "The Riddle"},
-        {"artist": "Blink-182", "title": "All The Small Things"},
-        {"artist
-
-": "Maurane", "title": "Sur Un Prélude De Bach"}
-    ],
-    "Rewind - 2": [
-        {"artist": "Laurent Voulzy", "title": "Marie Galante"},
-        {"artist": "The Pussycat Dolls", "title": "Don't Cha"},
-        {"artist": "Gwen Stefani", "title": "Hollaback Girl"},
-        {"artist": "Booba", "title": "Scarface"},
-        {"artist": "Franz Ferdinand", "title": "Take Me Out"}
-    ],
-    "Cette année-là - 1": [
-        {"artist": "Maître Gims", "title": "J'me tire (2013)"},
-        {"artist": "The Pointer Sisters", "title": "I'm So Excited (1982)"},
-        {"artist": "Stromae", "title": "Alors on danse (2009)"},
-        {"artist": "Beyoncé", "title": "Halo (2009)"},
-        {"artist": "Chopin", "title": "Fantaisie-Impromptu Op. 66 (1834)"},
-        {"artist": "Justice", "title": "D.A.N.C.E (2007)"},
-        {"artist": "Claude François", "title": "Cette année là (1976)"},
-        {"artist": "Diam's", "title": "DJ (2003)"},
-        {"artist": "Francis Cabrel", "title": "Je l'aime à mourir (1979)"},
-        {"artist": "Beethoven", "title": "Ode à la joie, 9ème symphonie (1824)"}
-    ],
-    "Cette année-là - 2": [
-        {"artist": "K.Maro", "title": "Femme Like U (2004)"},
-        {"artist": "Daniel Balavoine", "title": "Quand on arrive en ville (1978)"},
-        {"artist": "Ke$ha", "title": "TiK ToK (2009)"},
-        {"artist": "Elvis Presley", "title": "Jailhouse Rock (1957)"},
-        {"artist": "IAM", "title": "Je danse le Mia (1993)"},
-        {"artist": "Metallica", "title": "Nothing Else Matters (1992)"},
-        {"artist": "Simon & Garfunkel", "title": "The Sounds of Silence (1964)"},
-        {"artist": "Blondie", "title": "Call me (1980)"},
-        {"artist": "Seth Gueko", "title": "Patate de forain (2005)"},
-        {"artist": "Antonín Dvořák", "title": "La Symphonie du Nouveau Monde (1893)"}
-    ],
-    "Boite à musique - 1": [
-        {"artist": "The Rolling Stones", "title": "Paint It, Black"},
-        {"artist": "BTS", "title": "Blood Sweat & Tears"},
-        {"artist": "John Legend", "title": "All of Me"},
-        {"artist": "Papa Roach", "title": "Last Resort"},
-        {"artist": "Le Temps des Cathédrales", "title": "Bruno Pelletier"}
-    ],
-    "Boite à musique - 2": [
-        {"artist": "Lady Gaga & Bradley Cooper", "title": "Shallow"},
-        {"artist": "Linkin Park", "title": "In the End"},
-        {"artist": "Dragonforce", "title": "Through the Fire and Flames"},
-        {"artist": "AWOLNATION", "title": "Sail"},
-        {"artist": "Adele", "title": "Set Fire To The Rain"}
-    ],
-    "A poil ou a plume": [
-        {"artist": "Nicki Minaj", "title": "Anaconda"},
-        {"artist": "Georges Brassens", "title": "Le Gorille"},
-        {"artist": "Katy Perry", "title": "Roar"},
-        {"artist": "Arctic Monkeys", "title": "R U Mine?"},
-        {"artist": "Elvis Presley", "title": "Hound Dog"},
-        {"artist": "Pow woW", "title": "Le lion est mort ce soir"},
-        {"artist": "Survivor", "title": "Eye Of The Tiger"},
-        {"artist": "Tri Yann", "title": "La jument de Michao"},
-        {"artist": "Led Zeppelin", "title": "Black Dog"},
-        {"artist": "Shakira", "title": "She Wolf"},
-        {"artist": "Pink Floyd", "title": "Hey You"},
-        {"artist": "Snoop Dogg", "title": "Drop It Like It's Hot"},
-        {"artist": "Seal", "title": "Kiss From A Rose"},
-        {"artist": "Baha Men", "title": "Who Let The Dogs Out"},
-        {"artist": "Gorillaz", "title": "Dirty Harry"},
-        {"artist": "Joe Cocker", "title": "With A Little Help From My Friends"},
-        {"artist": "La Compagnie Créole", "title": "Ça fait rire les oiseaux"},
-        {"artist": "The Animals", "title": "House Of The Rising Sun"},
-        {"artist": "GIMS", "title": "Caméléon"},
-        {"artist": "Maroon 5", "title": "Animals"},
-        {"artist": "Serge Reggiani", "title": "Les Loups sont entrés dans Paris"},
-        {"artist": "Superbus", "title": "Butterfly"},
-        {"artist": "The Stray Cats", "title": "Rock This Town"},
-        {"artist": "Mr Oizo", "title": "Flat beat"}
-    ],
-    "Work": [
-        {"artist": "Britney Spears", "title": "Work Bitch"},
-        {"artist": "Michel Delpech", "title": "Quand j'étais chanteur"},
-        {"artist": "Coldplay", "title": "The Scientist"},
-        {"artist": "Hubert Felix Thiefaine", "title": "La fille du coupeur de joints"},
-        {"artist": "Rihanna", "title": "Work"},
-        {"artist": "Annie Cordy", "title": "La bonne du curé"},
-        {"artist": "Lady Gaga", "title": "Paparazzi"},
-        {"artist": "Serge Gainsbourg", "title": "Le poinçonneur des Lilas"},
-        {"artist": "Iggy Azalea", "title": "Work"},
-        {"artist": "Michel Berger", "title": "La groupie du pianiste"},
-        {"artist": "Aretha Franklin", "title": "Son of a Preacher Man"},
-        {"artist": "Daniel Balavoine", "title": "Le chanteur"},
-        {"artist": "Aqua", "title": "Doctor Jones"},
-        {"artist": "The Police", "title": "Every Breath You Take"},
-        {"artist": "Charles Aznavour", "title": "Les comédiens"},
-        {"artist": "Post Malone", "title": "Rockstar"},
-        {"artist": "Donna Summer", "title": "She Works Hard For The Money"},
-        {"artist": "Green Day", "title": "Working Class Hero"},
-        {"artist": "Francis Cabrel", "title": "La cabane du pêcheur"},
-        {"artist": "Bourvil", "title": "La tactique du gendarme"},
-        {"artist": "Dr. Dre", "title": "Still D.R.E"},
-        {"artist": "Vanessa Paradis", "title": "Joe Le Taxi"},
-        {"artist": "Florent Pagny", "title": "Le Soldat"},
-        {"artist": "Spin Doctors", "title": "Two Princes"},
-        {"artist": "Diam's", "title": "DJ"},
-        {"artist": "Pantera", "title": "Cowboys From Hell"},
-        {"artist": "Don Choa", "title": "Dr Hannibal"},
-        {"artist": "Mylène Farmer", "title": "Sans Contrefaçon"},
-        {"artist": "Queen", "title": "Killer Queen"}
-    ]
+    "Hold your colors": [{
+        "artist": "Green day",
+        "title": "Boulevard of Broken Dreams",
+        "coverURL": "https://i.discogs.com/fvcOHxfc9J5I41-BfxSDTlJXpiBwidjS8h2lJueyJ6I/rs:fit/g:sm/q:90/h:534/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2OTUw/NjctMTUzNzE2OTEy/NS04MTQxLmpwZWc.jpeg"
+    }, {
+        "artist": "Limp Bizkit",
+        "title": "Behind Blue Eyes",
+        "coverURL": "https://i.discogs.com/YfgWuosmbR_1-6le04PJM_uF-y446hpXqkqdiTQB4bg/rs:fit/g:sm/q:90/h:544/w:551/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2OTIx/MzUtMTIzNzI3OTkw/Ni5qcGVn.jpeg"
+    }, {
+        "artist": "Lana Del Rey",
+        "title": "Blue Jeans",
+        "coverURL": "https://i.discogs.com/b4nBUtmpNELQ7XP_Fj4IHm76xF_NMu-aS_wa9eyTZEc/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Nzg3/NzItMTM0NDA3NzQ4/NC00NTIxLmpwZWc.jpeg"
+    }, {
+        "artist": "Prince",
+        "title": "Purple Rain",
+        "coverURL": "https://i.discogs.com/mSIjl1G4gAdx2xw9iLG1fBmNPLz_5GNo0bLqeWyDMh4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5NDAy/MS0xMzM1NDAwMjg5/LmpwZWc.jpeg"
+    }, {
+        "artist": "Lorenzo",
+        "title": "Carton Rouge",
+        "coverURL": "https://i.discogs.com/XiuYCQFjHh0DD5PwJQF0vSqBi0N0pUya3dbLCnXgL3I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNjMy/MjI2LTE2NzExMjYx/MTEtNzk5NS5qcGVn.jpeg"
+    }, {
+        "artist": "Jeanne Mas",
+        "title": "En rouge et noir",
+        "coverURL": "https://i.discogs.com/d0m7YvrWS5f4DOn_AF9S2SIgd8lnfVom4rhdpumMTcI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMDY5/Ni0xMzcwODg0MDgw/LTE4NzEuanBlZw.jpeg"
+    }, {
+        "artist": "Cyndi Lauper",
+        "title": "True Colors",
+        "coverURL": "https://i.discogs.com/H69leKCvBqTE6jE1cvq8061vkS9gAFQeHeLMgxWuyMo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMjgz/NDQtMTI4MTU4OTcz/Mi5qcGVn.jpeg"
+    }, {
+        "artist": "Nekfeu",
+        "title": "Ciel noir",
+        "coverURL": "https://i.discogs.com/7bW9pd8fPpmBrss5OzyC5U3W1bOZNE7alAxTlc2wRTU/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzODE0/NzI2LTE1OTk1OTAy/NTQtMjUzMS5qcGVn.jpeg"
+    }, {
+        "artist": "Christophe",
+        "title": "Les mots bleus",
+        "coverURL": "https://i.discogs.com/RuLlOiQ-ggAO_pxwh9-2PYQheV-CjwWrsr9rgZszryE/rs:fit/g:sm/q:90/h:441/w:441/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NTM0/MTAtMTM3Mzk3ODA3/MC00Njg4LmpwZWc.jpeg"
+    }, {
+        "artist": "Dorothée",
+        "title": "Les chaussettes rouges et jaunes à ptis pois"
+    }, {
+        "artist": "Eddy Mitchell",
+        "title": "Couleur Menthe a l'eau",
+        "coverURL": "https://i.discogs.com/9aztV2aWE-NirGA32_0iuQwh1q4GAQESpEw55B_DxJU/rs:fit/g:sm/q:90/h:607/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1Mjky/NS0xMjAzNTk4NDEx/LmpwZWc.jpeg"
+    }, {
+        "artist": "Pink",
+        "title": "Family Portrait",
+        "coverURL": "https://i.discogs.com/idKifRmxLnSqJuPNmoYT45MEVuATAzVu66f-ac5KmRY/rs:fit/g:sm/q:90/h:489/w:491/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNjUw/ODUtMTI2MTk0NDYy/NS5qcGVn.jpeg"
+    }, {
+        "artist": "The Beatles",
+        "title": "Yellow Submarine",
+        "coverURL": "https://i.discogs.com/-txGlfuZqxJ9j8tFkntqpiBd_LI4CiRT7LS7yRV_Pqs/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1MTE4/MC0xNjA0MDgzNjQw/LTk2NTkuanBlZw.jpeg"
+    }, {
+        "artist": "Michel Berger",
+        "title": "Le Paradis Blanc",
+        "coverURL": "https://i.discogs.com/5vT_q16oAcK5brsyfrGNBxXbUGpQk1rKFrzbLPbS35k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1NTkz/MzgtMTU5NjMxNDE0/Ni03MTE0LmpwZWc.jpeg"
+    }, {
+        "artist": "Chris Brown & Tyga",
+        "title": "Ayo",
+        "coverURL": "https://i.discogs.com/Qf3eb9TyEjNUACPqmYXe7FBwBV8qap7tke3qPFiTJOY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY2ODE1/NzgtMTQyNDUyNDY2/NC00MzI2LmpwZWc.jpeg"
+    }, {
+        "artist": "The Black Eyed Peas",
+        "title": "Let's Get It Started",
+        "coverURL": "https://i.discogs.com/1SdDnRmlPHE4B3GEvQPr89kClzxc22lL0g091V66swU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjkx/OTktMTQ3MTc4NjIx/Ni02NTU0LmpwZWc.jpeg"
+    }, {
+        "artist": "Amy Winehouse",
+        "title": "Back To Black",
+        "coverURL": "https://i.discogs.com/syRCX8NaLwK2SMk8X6TVU_DWc8RRqE4b-tebAQ6kVH4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyNTQz/OC0xNjE3ODE0NDI2/LTU1MjUuanBlZw.jpeg"
+    }, {
+        "artist": "The White Stripes",
+        "title": "Blue Orchid",
+        "coverURL": "https://i.discogs.com/-eNy42UqEmcmOQ1KsuNXgbWn1rkt2vGk-HNyTc-Gfng/rs:fit/g:sm/q:90/h:591/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NzYx/Mi0xMzAyMDkwMjI2/LmpwZWc.jpeg"
+    }, {
+        "artist": "James Brown",
+        "title": "It's A Man's Man's Man's World",
+        "coverURL": "https://i.discogs.com/S1e0Q2uF5Vp2VYP74p_x0hIZVqQOR2KIeYsh-6WptMA/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkwMTM3/NC0xNTE0NjY3MjY1/LTIzOTAuanBlZw.jpeg"
+    }, {
+        "artist": "Eiffel 65",
+        "title": "Blue (Da Ba Dee)",
+        "coverURL": "https://i.discogs.com/kUfLCabunSwDuDURvuD6a2aQv3wYlA8UztYuL5owpV8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1Nzg4/ODQtMTY0ODg5MTY3/My02ODY5LmpwZWc.jpeg"
+    }, {
+        "artist": "Red Hot Chili Peppers",
+        "title": "Give It Away",
+        "coverURL": "https://i.discogs.com/45kzHcvtc8MEn6qc9L1TNYK40HcQsd2bSf4VNyoah38/rs:fit/g:sm/q:90/h:529/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NjI5/Ny0xMzc3MjMxNjc4/LTg2NzkuanBlZw.jpeg"
+    }, {
+        "artist": "The Rolling Stones",
+        "title": "Paint It Black",
+        "coverURL": "https://i.discogs.com/kcTzVWSxKK2WU0c3_2gK2WHA1lBIUHULykv8sOyMYHg/rs:fit/g:sm/q:90/h:581/w:581/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2ODIz/Mi0xNTY0MTE2NjU5/LTUxMTQuanBlZw.jpeg"
+    }, {
+        "artist": "UB40",
+        "title": "Red Red Wine",
+        "coverURL": "https://i.discogs.com/-rC3ljFzM2aEWX6qqirvzpzZ_644PUtTjYqQ39BV1qE/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0NDk3/OS0xMzIxMjk3OTQ3/LmpwZWc.jpeg"
+    }, {
+        "artist": "Booba",
+        "title": "Ma Couleur",
+        "coverURL": "https://i.discogs.com/mwn0PS70eExTgSg1nuNMOtj2SJsfB3QHnMjDuuRSSIU/rs:fit/g:sm/q:90/h:170/w:170/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NjM2/ODMtMTI5MDYzNTAy/Mi5qcGVn.jpeg"
+    }, {
+        "artist": "Gilbert Becaud",
+        "title": "L'orange du marchand",
+        "coverURL": "https://i.discogs.com/ylvEF69mpQF95Chquj__BtYWp6CC_JVHNOuMpkOMAmk/rs:fit/g:sm/q:90/h:578/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzkz/OTc1LTE2Mzc3NDgw/MjgtNDg5Ny5qcGVn.jpeg"
+    }],
+    "Hold Your colors - Rewind": [{
+        "artist": "Black Sabbath",
+        "title": "Iron Man",
+        "coverURL": "https://i.discogs.com/S7jhGrgIYY9A4BUWX6ZS_IZtz5dP9DNmIX9s3FlW2YA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1MTI0/MS0xNjM2MDMyMDMx/LTY3NDIuanBlZw.jpeg"
+    }, {
+        "artist": "Les Inconnus",
+        "title": "Isabelle a les yeux bleus",
+        "coverURL": "https://i.discogs.com/wTrvCdczFG4ACi8LRGk_Sh5OqoZZPJxvGf8OOXV5bT4/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk3MzA0/Mi0xMTg5NTQ0ODAy/LmpwZWc.jpeg"
+    }, {
+        "artist": "NTM",
+        "title": "Blanc et noir",
+        "coverURL": "https://i.discogs.com/5tTJPhQujATesO0n0CwUPAfN2TtQ_QMbxqOsFAFH9KY/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzMDU5/Ni0xNjUzNTE0ODIx/LTc3NzguanBlZw.jpeg"
+    }, {
+        "artist": "Coldplay",
+        "title": "Yellow",
+        "coverURL": "https://i.discogs.com/aoPzscmlWygkVQvAJzh1DEvD3QUWHlGnAhQPKonzaFU/rs:fit/g:sm/q:90/h:552/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyMjA3/MS0xMTY1NDE1ODg2/LmpwZWc.jpeg"
+    }, {
+        "artist": "The Black Keys",
+        "title": "Lonely Boy",
+        "coverURL": "https://i.discogs.com/6_WOJaeomTdMniVDPW9bZ9cOPR5xAf5eXH7ncDqZaYQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMzg0/MjYtMTQ2NDM4OTU3/NC02NDAzLnBuZw.jpeg"
+    }, {
+        "artist": "Les Négresses Vertes",
+        "title": "Voilà l'été",
+        "coverURL": "https://i.discogs.com/Ff8MSnfpykhTYYSA4S8cwugGKPwUcrMdU0yh2j6OPC4/rs:fit/g:sm/q:90/h:590/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MjM2/ODItMTIyNTk1NTMy/Ni5qcGVn.jpeg"
+    }, {
+        "artist": "Jefferson Airplane",
+        "title": "White Rabbit",
+        "coverURL": "https://i.discogs.com/76Pn9XVL_h3VICiUxOpis0ez36rzxo3sPKyKfwzLCAU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExODMz/MDU0LTE1MjMxNDYz/MTAtNTU0NS5qcGVn.jpeg"
+    }, {
+        "artist": "Will Smith",
+        "title": "Men In Black",
+        "coverURL": "https://i.discogs.com/WiL5D9Ks3gYm8R6p2g0BjRpuoOn_cfaYJ4Fu89szAL8/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwOTMw/My0xMTYyMjQzNDE5/LmpwZWc.jpeg"
+    }, {
+        "artist": "Ninho",
+        "title": "Violet",
+        "coverURL": "https://i.discogs.com/QLmWdH55hSx1wM2tC5hLh6uX1GNI9P28llPe2qN8maw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMzI2/MjE4LTE1NTIxMzkz/NDMtMzY5Ni5qcGVn.jpeg"
+    }, {
+        "artist": "AC/DC",
+        "title": "Back In Black",
+        "coverURL": "https://i.discogs.com/SmIONVwpLyWK2PwD-46ujP9935T9heE70B2KzLU0eBs/rs:fit/g:sm/q:90/h:404/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg0NzUy/LTE0NDc3NjY2NDEt/NjM0My5qcGVn.jpeg"
+    }],
+    "Moments de la journée": [{
+        "artist": "Kavinsky",
+        "title": "Nightcall",
+        "coverURL": "https://i.discogs.com/6eb2fxAqb_OsgLj1NJbJaynXyYNpx-x5Uzs0ZaCwYjY/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNjE3/MDUtMTM0MTY1Nzcy/My0yMDU2LmpwZWc.jpeg"
+    }, {
+        "artist": "Avicii",
+        "title": "The Nights",
+        "coverURL": "https://i.discogs.com/t1B-KsBclxJuxfayYoBSsC6FeJrVjcwBCxQZpkPdhP0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY5MjI1/NzYtMTQyOTU3OTQ5/MC05NzEwLmpwZWc.jpeg"
+    }, {
+        "artist": "Jacques Dutronc",
+        "title": "Il est 5 heures, Paris s'éveille",
+        "coverURL": "https://i.discogs.com/FRlIjvbmNm-I3OaP4oDFH10tEGfjgrGV0361kJhw5yY/rs:fit/g:sm/q:90/h:584/w:580/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwOTkx/MzItMTE5MTkzNTgy/Ni5qcGVn.jpeg"
+    }, {
+        "artist": "Green Day",
+        "title": "Basket Case",
+        "coverURL": "https://i.discogs.com/Oh5s5964sewlf1kSxJPv8S-Vz9tNcAZQoVR2FndadmA/rs:fit/g:sm/q:90/h:527/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODQy/NTctMTU0NDg4MDU0/MC0zNzQwLmpwZWc.jpeg"
+    }, {
+        "artist": "Sexion d'assaut",
+        "title": "Wati by night",
+        "coverURL": "https://i.discogs.com/VQUny7Z6H80I7WlHDpiJeTsLxX9LVewWKl4qbOxc6o8/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Nzcx/MzQtMTY2NzY3NTg1/MC01NjQxLmpwZWc.jpeg"
+    }, {
+        "artist": "Angèle",
+        "title": "Les matins",
+        "coverURL": "https://i.discogs.com/mAAoyprgKe17SfxwgRLK5gKc3RIYfJuLAaTtDSiezGw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjE1/NDk3LTE1Mzg2NTY0/OTQtOTE4NS5wbmc.jpeg"
+    }, {
+        "artist": "Alain Bashung",
+        "title": "La nuit je mens",
+        "coverURL": "https://i.discogs.com/GM7nbEKKiVBnUJ2Iv3oqYd5L35Ut9ULsJjQTvpvI-E8/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDQ4/MDMxLTE1MjcyNTAw/NDEtMjY5My5qcGVn.jpeg"
+    }, {
+        "artist": "Indeep",
+        "title": "Last Night A DJ Saved My Life",
+        "coverURL": "https://i.discogs.com/ty1_7SO0b_eD8aE6ii1gphNvFexNmOicvJJGvDE0KFA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MjYx/NTYtMTIxODcyNTUx/OS5qcGVn.jpeg"
+    }, {
+        "artist": "Yannick",
+        "title": "Ces Soirées Là",
+        "coverURL": "https://i.discogs.com/SHabjqW0CjdHohFNVaKm1Np34QS4HertYwShxOPMzPg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMjYz/MjgtMTQ0NTY0NjA0/MC02NTA5LmpwZWc.jpeg"
+    }, {
+        "artist": "The Strokes",
+        "title": "Last Nite",
+        "coverURL": "https://i.discogs.com/sOf2VcBaLwbJba5lKQyXetjY4WJCxJOf2PrCksfJGz4/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkxODY4/My0xMTc0MTI4NjYz/LmpwZWc.jpeg"
+    }, {
+        "artist": "Fun",
+        "title": "Some Nights",
+        "coverURL": "https://i.discogs.com/2ErkYB4SVF2hNWugjc3n9wmQcbZb4tOuKLmV4BL3V3k/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MjUw/MTMtMTY0NTM2Nzcz/OS04MTIwLmpwZWc.jpeg"
+    }, {
+        "artist": "The Velvet Underground",
+        "title": "Sunday Morning",
+        "coverURL": "https://i.discogs.com/XvCQxP3HvqMv3BQ3fpGkDbzIBoVCWsv0ID96k94kgag/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMzQw/NDUtMTYxMDkyMjc5/MC0yNzY4LmpwZWc.jpeg"
+    }, {
+        "artist": "Fatal Bazooka",
+        "title": "Ce matin va être une pure soirée",
+        "coverURL": "https://i.discogs.com/V9gQ3FRxQ8nu_8_pBnoyo-O339pC0TU9ABQox7RWVCw/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMTQ1/MzYyLTE1MjkyMTk0/NjUtNTg4Mi5qcGVn.jpeg"
+    }, {
+        "artist": "M83",
+        "title": "Midnight City",
+        "coverURL": "https://i.discogs.com/PibABH5DvK1B-oaSWC6AD5zLwxZlOXg1y2IJcOd0xuE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNTQy/NzgtMTMxMzU0NTIw/Ny5qcGVn.jpeg"
+    }, {
+        "artist": "Images",
+        "title": "Les démons de minuit",
+        "coverURL": "https://i.discogs.com/SgbHuwRKDo_J3AIUHUBmYwu7Wx01WHz8KOiZnDxXfts/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMzY3/NC0xNDkxOTEwNDYw/LTQyMTMuanBlZw.jpeg"
+    }, {
+        "artist": "System Of A Down",
+        "title": "Lonely Day",
+        "coverURL": "https://i.discogs.com/S_UpLv5W7plKa4fsGChVEaZdKLoXzsI16s5Lq5AtcSg/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNTY4/NjYtMTUyNzM0ODQ1/OS03MjQ5LmpwZWc.jpeg"
+    }, {
+        "artist": "Fonky Family",
+        "title": "Tonight",
+        "coverURL": "https://i.discogs.com/EgKp2kLYzCieutiamHwPVnBUHnFD8EfNVIXKcK0DqZA/rs:fit/g:sm/q:90/h:608/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNTAz/OS0xNjcxMTg5ODY0/LTI1MjYuanBlZw.jpeg"
+    }, {
+        "artist": "Kiss",
+        "title": "Rock And Roll All Nite",
+        "coverURL": "https://i.discogs.com/Xhk1uzFIM4vK8XbZFF2IJ3c7pQzT00airOfdY-8IOe0/rs:fit/g:sm/q:90/h:603/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MjIz/NTEtMTQzNTgxMDk3/Mi05NDg4LmpwZWc.jpeg"
+    }, {
+        "artist": "Début de Soirée",
+        "title": "La Vie la Nuit",
+        "coverURL": "https://i.discogs.com/pzg8N7hnux1fb00oEBp0x8j-TZR_XlZaI5yVx_eZExQ/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMDY2/NC0xNDI1ODQzMDkx/LTkwOTkuanBlZw.jpeg"
+    }, {
+        "artist": "Timbaland",
+        "title": "Morning After Dark",
+        "coverURL": "https://i.discogs.com/oRo-wOKwOjJJRv4s9nTi65UC9Bk1heZa9tr2WkJ2RZg/rs:fit/g:sm/q:90/h:530/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNDMx/NDItMTI2MDQ0NzI3/Ny5qcGVn.jpeg"
+    }, {
+        "artist": "Boulevard des Airs",
+        "title": "Demain de bon matin",
+        "coverURL": "https://i.discogs.com/HXYH4lIRf7B7E91fDGZxM4Ca11uOsftN-TKWMcdJ0DU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgwMDEx/NzEtMTQ1MzIzNzMx/Ni04MTg2LmpwZWc.jpeg"
+    }, {
+        "artist": "The Kinks",
+        "title": "Sunny Afternoon",
+        "coverURL": "https://i.discogs.com/6uZ4FZNg5pEsuhgALCUckpspxQ0Q20vieoZZycB3c8A/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzODI3/MzEtMTQwMDQzMzE0/Mi01MDE4LmpwZWc.jpeg"
+    }, {
+        "artist": "AC/DC",
+        "title": "You Shook Me All Night Long",
+        "coverURL": "https://i.discogs.com/KMJoIXqdcddgEuckklLwSzC50JqHz10HiLBVFSohZAQ/rs:fit/g:sm/q:90/h:602/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MTg1/NzktMTI3NzkzMjIx/Mi5qcGVn.jpeg"
+    }, {
+        "artist": "Jean-Jacques Goldman",
+        "title": "Encore un matin",
+        "coverURL": "https://i.discogs.com/AH2s5NnjrbM-pzCm33NHZpdsinQcR31ulvde90l56pw/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNzEy/MDg0LTE1NDA1Mzgz/NjItOTIzMi5qcGVn.jpeg"
+    }, {
+        "artist": "Bee Gees",
+        "title": "Night Fever",
+        "coverURL": "https://i.discogs.com/xF6zYyn4L3KZT9MeBlwBygtSXkeZanPz3SaEbyIPDEI/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2ODU4/MS0xNTg5MzE2OTQ0/LTU0MzYuanBlZw.jpeg"
+    }],
+    "Step by Step - 1": [{
+        "artist": "Lady Gaga",
+        "title": "Applause"
+    }, {
+        "artist": "Maroon 5",
+        "title": "Sugar"
+    }, {
+        "artist": "Lil Nas X",
+        "title": "Old Town Road"
+    }, {
+        "artist": "MGMT",
+        "title": "Kids"
+    }, {
+        "artist": "Hozier",
+        "title": "Take Me To Church"
+    }],
+    "Step by Step - 2": [{
+        "artist": "The Killers",
+        "title": "Mr. Brightside"
+    }, {
+        "artist": "Ariana Grande",
+        "title": "Into You"
+    }, {
+        "artist": "Massive Attack",
+        "title": "Teardrop"
+    }, {
+        "artist": "Rage Against The Machine",
+        "title": "Killing In the Name"
+    }, {
+        "artist": "The Jackson 5",
+        "title": "I Want You Back"
+    }],
+    "Rewind - 1": [{
+        "artist": "Linkin Park",
+        "title": "Numb"
+    }, {
+        "artist": "DJ BoBo",
+        "title": "CHIHUAHUA"
+    }, {
+        "artist": "Michel Sardou",
+        "title": "La maladie d'amour"
+    }, {
+        "artist": "Sum 41",
+        "title": "Pieces"
+    }, {
+        "artist": "Daddy DJ",
+        "title": "Daddy DJ"
+    }, {
+        "artist": "Lady Gaga",
+        "title": "Born This Way"
+    }, {
+        "artist": "Claude François",
+        "title": "Bélinda"
+    }, {
+        "artist": "Gigi D'Agostino",
+        "title": "The Riddle"
+    }, {
+        "artist": "Blink-182",
+        "title": "All The Small Things"
+    }, {
+        "artist": "Maurane ",
+        "title": "Sur Un Prélude De Bach"
+    }],
+    "Rewind - 2": [{
+        "artist": "Laurent Voulzy",
+        "title": "Marie Galante"
+    }, {
+        "artist": "The Pussycat Dolls",
+        "title": "Don't Cha"
+    }, {
+        "artist": "Gwen Stefani",
+        "title": "Hollaback Girl"
+    }, {
+        "artist": "Booba",
+        "title": "Scarface"
+    }, {
+        "artist": "Franz Ferdinand",
+        "title": "Take Me Out"
+    }],
+    "Cette année-là - 1": [{
+        "artist": "Maître Gims",
+        "title": "J'me tire (2013)"
+    }, {
+        "artist": "The Pointer Sisters",
+        "title": "I'm So Excited (1982)"
+    }, {
+        "artist": "Stromae",
+        "title": "Alors on danse (2009)"
+    }, {
+        "artist": "Beyoncé",
+        "title": "Halo (2009)"
+    }, {
+        "artist": "Chopin",
+        "title": "Fantaisie-Impromptu Op. 66 (1834)"
+    }, {
+        "artist": "Justice",
+        "title": "D.A.N.C.E (2007)"
+    }, {
+        "artist": "Claude François",
+        "title": "Cette année là (1976)"
+    }, {
+        "artist": "Diam's",
+        "title": "DJ (2003)"
+    }, {
+        "artist": "Francis Cabrel",
+        "title": "Je l'aime à mourir (1979)"
+    }, {
+        "artist": "Beethoven",
+        "title": "Ode à la joie, 9ème symphonie (1824)"
+    }],
+    "Cette année-là - 2": [{
+        "artist": "K.Maro",
+        "title": "Femme Like U (2004)"
+    }, {
+        "artist": "Daniel Balavoine",
+        "title": "Quand on arrive en ville (1978)"
+    }, {
+        "artist": "Ke$ha",
+        "title": "TiK ToK (2009)"
+    }, {
+        "artist": "Elvis Presley",
+        "title": "Jailhouse Rock (1957)"
+    }, {
+        "artist": "IAM",
+        "title": "Je danse le Mia (1993)"
+    }, {
+        "artist": "Metallica",
+        "title": "Nothing Else Matters (1992)"
+    }, {
+        "artist": "Simon & Garfunkel",
+        "title": "The Sounds of Silence (1964)"
+    }, {
+        "artist": "Blondie",
+        "title": "Call me (1980)"
+    }, {
+        "artist": "Seth Gueko",
+        "title": "Patate de forain (2005)"
+    }, {
+        "artist": "Antonín Dvořák",
+        "title": "La Symphonie du Nouveau Monde (1893)"
+    }],
+    "Boite à musique - 1": [{
+        "artist": "The Rolling Stones",
+        "title": "Paint It, Black"
+    }, {
+        "artist": "BTS",
+        "title": "Blood Sweat & Tears"
+    }, {
+        "artist": "John Legend",
+        "title": "All of Me"
+    }, {
+        "artist": "Papa Roach",
+        "title": "Last Resort"
+    }, {
+        "artist": "Le Temps des Cathédrales",
+        "title": "Bruno Pelletier"
+    }],
+    "Boite à musique - 2": [{
+        "artist": "Lady Gaga & Bradley Cooper",
+        "title": "Shallow"
+    }, {
+        "artist": "Linkin Park",
+        "title": "In the End"
+    }, {
+        "artist": "Dragonforce",
+        "title": "Through the Fire and Flames"
+    }, {
+        "artist": "AWOLNATION",
+        "title": "Sail"
+    }, {
+        "artist": "Adele",
+        "title": "Set Fire To The Rain"
+    }],
+    "A poil ou a plume": [{
+        "artist": "Nicki Minaj",
+        "title": "Anaconda"
+    }, {
+        "artist": "Georges Brassens",
+        "title": "Le Gorille"
+    }, {
+        "artist": "Katy Perry",
+        "title": "Roar"
+    }, {
+        "artist": "Arctic Monkeys",
+        "title": "R U Mine?"
+    }, {
+        "artist": "Elvis Presley",
+        "title": "Hound Dog"
+    }, {
+        "artist": "Pow woW",
+        "title": "Le lion est mort ce soir"
+    }, {
+        "artist": "Survivor",
+        "title": "Eye Of The Tiger"
+    }, {
+        "artist": "Tri Yann",
+        "title": "La jument de Michao"
+    }, {
+        "artist": "Led Zeppelin",
+        "title": "Black Dog"
+    }, {
+        "artist": "Shakira",
+        "title": "She Wolf"
+    }, {
+        "artist": "Pink Floyd",
+        "title": "Hey You"
+    }, {
+        "artist": "Snoop Dogg",
+        "title": "Drop It Like It's Hot"
+    }, {
+        "artist": "Seal",
+        "title": "Kiss From A Rose"
+    }, {
+        "artist": "Baha Men",
+        "title": "Who Let The Dogs Out"
+    }, {
+        "artist": "Gorillaz",
+        "title": "Dirty Harry"
+    }, {
+        "artist": "Joe Cocker",
+        "title": "With A Little Help From My Friends"
+    }, {
+        "artist": "La Compagnie Créole",
+        "title": "Ça fait rire les oiseaux"
+    }, {
+        "artist": "The Animals",
+        "title": "House Of The Rising Sun"
+    }, {
+        "artist": "GIMS",
+        "title": "Caméléon"
+    }, {
+        "artist": "Maroon 5",
+        "title": "Animals"
+    }, {
+        "artist": "Serge Reggiani",
+        "title": "Les Loups sont entrés dans Paris"
+    }, {
+        "artist": "Superbus",
+        "title": "Butterfly"
+    }, {
+        "artist": "The Stray Cats",
+        "title": "Rock This Town"
+    }, {
+        "artist": "Mr Oizo",
+        "title": "Flat beat"
+    }],
+    "Work": [{
+        "artist": "Britney Spears",
+        "title": "Work Bitch"
+    }, {
+        "artist": "Michel Delpech",
+        "title": "Quand j'étais chanteur"
+    }, {
+        "artist": "Coldplay",
+        "title": "The Scientist"
+    }, {
+        "artist": "Hubert Felix Thiefaine",
+        "title": "La fille du coupeur de joints"
+    }, {
+        "artist": "Rihanna",
+        "title": "Work"
+    }, {
+        "artist": "Annie Cordy",
+        "title": "La bonne du curé"
+    }, {
+        "artist": "Lady Gaga",
+        "title": "Paparazzi"
+    }, {
+        "artist": "Serge Gainsbourg",
+        "title": "Le poinçonneur des Lilas"
+    }, {
+        "artist": "Iggy Azalea",
+        "title": "Work"
+    }, {
+        "artist": "Michel Berger",
+        "title": "La groupie du pianiste"
+    }, {
+        "artist": "Aretha Franklin",
+        "title": "Son of a Preacher Man"
+    }, {
+        "artist": "Daniel Balavoine",
+        "title": "Le chanteur"
+    }, {
+        "artist": "Aqua",
+        "title": "Doctor Jones"
+    }, {
+        "artist": "The Police",
+        "title": "Every Breath You Take"
+    }, {
+        "artist": "Charles Aznavour",
+        "title": "Les comédiens"
+    }, {
+        "artist": "Post Malone",
+        "title": "Rockstar"
+    }, {
+        "artist": "Donna Summer",
+        "title": "She Works Hard For The Money"
+    }, {
+        "artist": "Green Day",
+        "title": "Working Class Hero"
+    }, {
+        "artist": "Francis Cabrel",
+        "title": "La cabane du pêcheur"
+    }, {
+        "artist": "Bourvil",
+        "title": "La tactique du gendarme"
+    }, {
+        "artist": "Dr. Dre",
+        "title": "Still D.R.E"
+    }, {
+        "artist": "Vanessa Paradis",
+        "title": "Joe Le Taxi"
+    }, {
+        "artist": "Florent Pagny",
+        "title": "Le Soldat"
+    }, {
+        "artist": "Spin Doctors",
+        "title": "Two Princes"
+    }, {
+        "artist": "Diam's",
+        "title": "DJ"
+    }, {
+        "artist": "Pantera",
+        "title": "Cowboys From Hell"
+    }, {
+        "artist": "Don Choa",
+        "title": "Dr Hannibal"
+    }, {
+        "artist": "Mylène Farmer",
+        "title": "Sans Contrefaçon"
+    }, {
+        "artist": "Queen",
+        "title": "Killer Queen"
+    }]
 }
