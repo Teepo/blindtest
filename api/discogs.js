@@ -11,68 +11,73 @@ const CONSUMER_SECRET = 'QlaIwjQYLjIZeRucQyWkPNdGccQSuUTS';
 
 const database = new Discogs.Client({ userToken : API_KEY }).database();
 
+// TODO
+// cURL cover and store media in local file system
 const updatePlaylistCover = async () => {
 
-    const playlists = JSON.parse(fs.readFileSync('./data/playlist.json', 'utf-8'));
+    const playlistFiles = fs.readdirSync('./data/playlist/');
 
-    for (const key in playlists) {
+    for (const file of playlistFiles) {
 
-        const playlist = playlists[key];
+        const playlistFilePath = `./data/playlist/${file}`;
 
-        // store main loop to break it when API cannot respond
-        mainLoop: for (const playlistItemKey in playlist) {
+        const playlists = JSON.parse(fs.readFileSync(playlistFilePath, 'utf-8'));
 
-            const playlistItem = playlist[playlistItemKey];
+        for (const key in playlists) {
 
-            const query = `${playlistItem.artist} - ${playlistItem.title}`;
+            const playlist = playlists[key];
 
-            try {
+            // store main loop to break it when API cannot respond
+            mainLoop: for (const playlistItemKey in playlist) {
 
-                const currentPlaylistItem = playlists[key][playlistItemKey];
+                const playlistItem = playlist[playlistItemKey];
 
-                if (currentPlaylistItem.cover || currentPlaylistItem.coverURL) {
-                    console.log(chalk.yellow(`${query} have already a cover. Skip...`));
-                    continue;
+                const query = `${playlistItem.artist} - ${playlistItem.title}`;
+
+                try {
+
+                    const currentPlaylistItem = playlists[key][playlistItemKey];
+
+                    if (currentPlaylistItem.cover || currentPlaylistItem.coverURL) {
+                        console.log(chalk.yellow(`${query} have already a cover. Skip...`));
+                        continue;
+                    }
+
+                    // Query API
+                    const data = await database.search(query);
+
+                    // Try to find cover in data
+                    const cover = data.results?.[0]?.cover_image;
+
+                    if (!cover) {
+                        console.error(chalk.red(`${playlistItem.artist} or ${query} cover not found`));
+                        continue;
+                    }
+
+                    // update main json object
+                    currentPlaylistItem.coverURL = cover;
+
+                    console.log(query);
+                    console.log(cover);
+                    console.log('-------------------------------');
                 }
-                
-                // Query API
-                const data = await database.search(query);
+                catch(e) {
+                    console.error(chalk.red(`Error while query API`));
+                    break mainLoop;
+                }
+            }
 
-                // Try to find cover in data
-                const cover = data.results?.[0]?.cover_image;
+            // write in playlist json file with update json object
+            fs.writeFile(playlistFilePath, JSON.stringify(playlists), error => {
 
-                if (!cover) {
-                    console.error(chalk.red(`${playlistItem.artist} or ${query} cover not found`));
-                    continue;
+                if (error) {
+                    return console.error(chalk.red(`An error occured while updating playlist ${file} json file`), error);
                 }
 
-                // update main json object
-                currentPlaylistItem.coverURL = cover;
-
-                console.log(query);
-                console.log(cover);
-                console.log('-------------------------------');
-            }
-            catch(e) {
-                console.error(chalk.red(`Error while query API`));
-                break mainLoop;
-            }
+                console.log(chalk.green(`Playlist ${file} json file updated !`));
+            });
         }
     }
-
-    // write in playlist json file with update json object
-    fs.writeFile('./data/playlist.json', JSON.stringify(playlists), error => {
-
-        if (error) {
-            return console.error(chalk.red(`An error occured while updating playlist json file`), error);
-        }
-
-        console.log(chalk.green(`Playlist json file updated !`));
-    });
-
-    // TODO
-    // cURL cover and store media in local file system
-
 };
 
 (async () => {
