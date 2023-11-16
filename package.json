@@ -1,6 +1,7 @@
 {
   "name": "blindtest",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,6 +11,8 @@
   },
   "dependencies": {
     "@mdi/font": "7.3.67",
+    "chalk": "^5.3.0",
+    "disconnect": "^1.2.2",
     "noty": "^3.2.0-beta-deprecated",
     "pinia": "^2.1.7",
     "roboto-fontface": "*",
