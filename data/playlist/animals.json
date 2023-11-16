@@ -1,0 +1,89 @@
+{
+    "title" : "Animaux",
+    "items" : [{
+        "artist": "Nicki Minaj",
+        "title": "Anaconda",
+        "coverURL": "https://i.discogs.com/Nh85NZhBqmEeDiTdBwNG9r0LBLaRPBx4lVoQcGLJP7E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NDk5/NjMtMTQ5NTI3Njk4/MC02ODE1LmpwZWc.jpeg"
+    }, {
+        "artist": "Georges Brassens",
+        "title": "Le Gorille",
+        "coverURL": "https://i.discogs.com/dcbgX1R1_qLtnqoYsIhx4t_BnEly3pnTGdPqww2GMuE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MzM4/NDQ0LTE2NjE2Nzky/OTItNjkxMS5qcGVn.jpeg"
+    }, {
+        "artist": "Katy Perry",
+        "title": "Roar",
+        "coverURL": "https://i.discogs.com/9e-Cte_AqQehM2cpVviuC2uwNuygdhBGddymgRbHV3g/rs:fit/g:sm/q:90/h:522/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5MDc5/NzYtMTM4NDQzNjE4/MS02NDQwLmpwZWc.jpeg"
+    }, {
+        "artist": "Arctic Monkeys",
+        "title": "R U Mine?",
+        "coverURL": "https://i.discogs.com/Zd8JxszxDjFIfiS54aDOF8qBQo9XvyQ0y1B_-FNtupU/rs:fit/g:sm/q:90/h:400/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NTI0/MjktMTMzNTAwNzI5/NC5qcGVn.jpeg"
+    }, {
+        "artist": "Elvis Presley",
+        "title": "Hound Dog",
+        "coverURL": "https://i.discogs.com/cB6fgmKPfaM30w1CSKVIYztylBCS75CdmHLVWNRHZt8/rs:fit/g:sm/q:90/h:89/w:185/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2ODcz/Mi0xNjYzMDk2MjQ0/LTI5MjIuanBlZw.jpeg"
+    }, {
+        "artist": "Pow woW",
+        "title": "Le lion est mort ce soir",
+        "coverURL": "https://i.discogs.com/PJjp2V3GmDfkisj-KZcAbG0LbGdVH1xxvfbup7JyMvs/rs:fit/g:sm/q:90/h:607/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNDI4/NDUtMTYyNTQwNTg5/MC05NTk1LmpwZWc.jpeg"
+    }, {
+        "artist": "Survivor",
+        "title": "Eye Of The Tiger",
+        "coverURL": "https://i.discogs.com/KdEIPfqgptC6WXjZl9TWbaQ1LJ8E104MEz-BmQPysMI/rs:fit/g:sm/q:90/h:584/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNDM4/NjYtMTI2NjU0MTgw/NS5qcGVn.jpeg"
+    }, {
+        "artist": "Tri Yann",
+        "title": "La jument de Michao",
+        "coverURL": "https://i.discogs.com/FF3eq6SvjH6-e7XBo8jXqOyiL-uSn8OsDcegXr5G-aY/rs:fit/g:sm/q:90/h:602/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3NzM5/NTAtMTQ5MzU1NzIy/Ny05NDkxLmpwZWc.jpeg"
+    }, {
+        "artist": "Led Zeppelin",
+        "title": "Black Dog",
+        "coverURL": "https://i.discogs.com/4PkQoqRaemWC1fVFITjiiqhT8P7AXppHoM8U_ZWCErw/rs:fit/g:sm/q:90/h:301/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMzI1/MjItMTI1MDYxNTEx/NC5qcGVn.jpeg"
+    }, {
+        "artist": "Shakira",
+        "title": "She Wolf",
+        "coverURL": "https://i.discogs.com/E9g21GeJ1fov2hlocLph1an-pIi0gwKNji6xI-h_HFM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMTcx/OTAtMTUzMTMzMDYy/Mi05OTkwLmpwZWc.jpeg"
+    }, {
+        "artist": "Pink Floyd",
+        "title": "Hey You",
+        "coverURL": "https://i.discogs.com/lely_jbOoFsw6WlxmCT-0LMUEPd8njCFNa7XXiIhh6o/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNTAx/Mi0xNTIzMjAyMjU0/LTQyODguanBlZw.jpeg"
+    }, {
+        "artist": "Snoop Dogg",
+        "title": "Drop It Like It's Hot",
+        "coverURL": "https://i.discogs.com/DKrCMnYQLFT-P8lA_WogDs74rYt4bVHDtiF-AeFRVmE/rs:fit/g:sm/q:90/h:612/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MjMz/My0xNTk3MzcxNjIw/LTg0MzguanBlZw.jpeg"
+    }, {
+        "artist": "Seal",
+        "title": "Kiss From A Rose",
+        "coverURL": "https://i.discogs.com/SsgTTJrbjq0Vv--SFnAWV8eR2WNmuuHD6crmz-klgJQ/rs:fit/g:sm/q:90/h:529/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3NTgx/MDItMTQ1NDM0NTU2/Mi01NTY1LmpwZWc.jpeg"
+    }, {
+        "artist": "Baha Men",
+        "title": "Who Let The Dogs Out"
+    }, {
+        "artist": "Gorillaz",
+        "title": "Dirty Harry"
+    }, {
+        "artist": "Joe Cocker",
+        "title": "With A Little Help From My Friends"
+    }, {
+        "artist": "La Compagnie Créole",
+        "title": "Ça fait rire les oiseaux"
+    }, {
+        "artist": "The Animals",
+        "title": "House Of The Rising Sun"
+    }, {
+        "artist": "GIMS",
+        "title": "Caméléon"
+    }, {
+        "artist": "Maroon 5",
+        "title": "Animals"
+    }, {
+        "artist": "Serge Reggiani",
+        "title": "Les Loups sont entrés dans Paris"
+    }, {
+        "artist": "Superbus",
+        "title": "Butterfly"
+    }, {
+        "artist": "The Stray Cats",
+        "title": "Rock This Town"
+    }, {
+        "artist": "Mr Oizo",
+        "title": "Flat beat"
+    }]
+}

@@ -1,0 +1,44 @@
+{
+    "title" : "Cette année-là - 1",
+    "items" : [{
+        "artist": "K.Maro",
+        "title": "Femme Like U (2004)",
+        "coverURL": "https://i.discogs.com/XIwSNL0jOl_DE4YZ6Xl0PZ3vDUQ3UufyaJe3cxb-LUY/rs:fit/g:sm/q:90/h:605/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc4NjMx/Ny0xMjYzMDgzMTE2/LmpwZWc.jpeg"
+    }, {
+        "artist": "Daniel Balavoine",
+        "title": "Quand on arrive en ville (1978)",
+        "coverURL": "https://i.discogs.com/Zmlr5fjNAIhvuEKwtVfNEyPu3RRC0h2iL_IG38HrSd8/rs:fit/g:sm/q:90/h:609/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjYz/Nzk1LTE1Mzk2Mjgx/OTgtMjk0NS5qcGVn.jpeg"
+    }, {
+        "artist": "Ke$ha",
+        "title": "TiK ToK (2009)",
+        "coverURL": "https://i.discogs.com/gttZxS02G6v8sMAPwoabaYGPDU-IR1kNGCTvPpuAYZg/rs:fit/g:sm/q:90/h:528/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwOTI4/MTAtMTY2MjAxODQz/My02MDYzLmpwZWc.jpeg"
+    }, {
+        "artist": "Elvis Presley",
+        "title": "Jailhouse Rock (1957)",
+        "coverURL": "https://i.discogs.com/k2aJq7TmDugCcBYjEBAAFJH2WQgw0NWq-62iMldylzw/rs:fit/g:sm/q:90/h:300/w:295/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NzQy/Mjc0LTE1ODA2ODM3/MzgtODExOS5qcGVn.jpeg"
+    }, {
+        "artist": "IAM",
+        "title": "Je danse le Mia (1993)",
+        "coverURL": "https://i.discogs.com/oBHWVXtbGLgXTLCF-DhehIDsf2ENHh0fohHCmVQY20g/rs:fit/g:sm/q:90/h:472/w:461/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNDg4/MC0xMzMwNjE0NDkz/LmpwZWc.jpeg"
+    }, {
+        "artist": "Metallica",
+        "title": "Nothing Else Matters (1992)",
+        "coverURL": "https://i.discogs.com/Q7NX-LKC2_Jfiw1KWYvDpiWvm0ozroWFQseWZh8gd-w/rs:fit/g:sm/q:90/h:523/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ3MzI4/Ny0xMzYyNDk0NTIw/LTExMjEuanBlZw.jpeg"
+    }, {
+        "artist": "Simon & Garfunkel",
+        "title": "The Sounds of Silence (1964)",
+        "coverURL": "https://i.discogs.com/U7CPd0zgRVnWUSIeELHrTU_dFr7JOCh5gYrXhOhJiVE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkxNjA5/NC0xMTcyNzEzNDQx/LmpwZWc.jpeg"
+    }, {
+        "artist": "Blondie",
+        "title": "Call me (1980)",
+        "coverURL": "https://i.discogs.com/WS0qMNkgXTUYjiRSwsEvrTSW21fF1KCIFXWCIQb82tE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNDMx/OS0xMjU2MzA5MzQ3/LmpwZWc.jpeg"
+    }, {
+        "artist": "Seth Gueko",
+        "title": "Patate de forain (2005)",
+        "coverURL": "https://i.discogs.com/Glj6-Z_K8PzZWa6h32as2oNfkFosaq2i9y7X3qfdtGQ/rs:fit/g:sm/q:90/h:580/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MDk5/NjctMTU0MjIyNjA3/OS01MTIxLmpwZWc.jpeg"
+    }, {
+        "artist": "Antonín Dvořák",
+        "title": "La Symphonie du Nouveau Monde (1893)",
+        "coverURL": "https://i.discogs.com/Yb_lM3ygJ6451NgfU737dAundTdAcolhxvWaahWhJyM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExOTAy/NTU3LTE1MjQ0Nzgy/MDMtNzg3OS5qcGVn.jpeg"
+    }]
+}

@@ -1,0 +1,42 @@
+{
+    "title" : "Cette année-là - 1",
+    "items" : [{
+        "artist": "Maître Gims",
+        "title": "J'me tire (2013)",
+        "coverURL": "https://i.discogs.com/rvnpwoQDpKLkO_kqYhZUBzKE6tQ5rBY5R0ThME5OhEE/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2MTcz/NzctMTY3NzA5MjI5/My02NTkzLmpwZWc.jpeg"
+    }, {
+        "artist": "The Pointer Sisters",
+        "title": "I'm So Excited (1982)",
+        "coverURL": "https://i.discogs.com/NoUJJNPIbXrS-jklX6TcsEZVTkDi_Fayl-rP_UU8RHc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MzQx/MjAtMTIyOTA3Nzc1/Mi5qcGVn.jpeg"
+    }, {
+        "artist": "Stromae",
+        "title": "Alors on danse (2009)",
+        "coverURL": "https://i.discogs.com/-_dpvQksFdtASRVXs_Cg8hdRi4WZu3RgEGqkFC9qvTk/rs:fit/g:sm/q:90/h:415/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNzc0/MjktMTYzODM3ODQy/Ni0yNzM2LmpwZWc.jpeg"
+    }, {
+        "artist": "Beyoncé",
+        "title": "Halo (2009)",
+        "coverURL": "https://i.discogs.com/5U9JWXnv9gX8QMdKF4RviBtSJO_3f9o36KZdefXeJpU/rs:fit/g:sm/q:90/h:526/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NTQ1/MDktMTM5NzkzMTAx/Ny03MjU2LmpwZWc.jpeg"
+    }, {
+        "artist": "Chopin",
+        "title": "Fantaisie-Impromptu Op. 66 (1834)",
+        "coverURL": "https://i.discogs.com/I1eZDw6LyJr72vFsMBwMNtLMC_QbYRqk72zDhS4TBPY/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2NjUx/MTctMTQ2NjE4NjQx/NC02NDEyLmpwZWc.jpeg"
+    }, {
+        "artist": "Justice",
+        "title": "D.A.N.C.E (2007)",
+        "coverURL": "https://i.discogs.com/Y2LWLvtx3pffMm9ShfoYtzx-hSeg_rGnaLLIDY2xfEo/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2Mjg0/Mi0xMTg3MjU5OTEy/LmpwZWc.jpeg"
+    }, {
+        "artist": "Claude François",
+        "title": "Cette année là (1976)",
+        "coverURL": "https://i.discogs.com/HQmRIRoR6CIIvrm4Yo5Gb3tDrUzBqj1zpSQzD18OyEU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg3NTUy/NjgtMTQ2ODA3MjA3/OS02MTEwLmpwZWc.jpeg"
+    }, {
+        "artist": "Diam's",
+        "title": "DJ (2003)",
+        "coverURL": "https://i.discogs.com/9-Ozz3Fb9ay6lECepC8FlLca_qtACJNfbpItEzu_LAI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc4MTcy/Ny0xNDcyOTE0NDU5/LTU3NDYuanBlZw.jpeg"
+    }, {
+        "artist": "Francis Cabrel",
+        "title": "Je l'aime à mourir (1979)"
+    }, {
+        "artist": "Beethoven",
+        "title": "Ode à la joie, 9ème symphonie (1824)"
+    }]
+}
