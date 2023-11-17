@@ -1,45 +1,19 @@
+<script setup>
+
+    const playlists = import.meta.glob('./../../data/playlist/*.json', { as: 'json', eager: true });
+
+    console.log(playlists)
+</script>
+
 <template>
     <v-container fluid>
         <v-responsive>
 
-            <div class="mb-10">
-
-                <h1 class="text-h4 font-weight-bold mb-5">By thematic</h1>
-
-                <v-row>
-                    <v-slide-group show-arrows>
-                        <v-slide-group-item v-for="n in 15" :key="n">
-                            <PlaylistCard></PlaylistCard>
-                        </v-slide-group-item>
-                    </v-slide-group>
-                </v-row>
-            </div>
-
-            <div class="mb-10">
-
-                <h1 class="text-h4 font-weight-bold mb-5">Through the years</h1>
-
-                <v-row>
-                    <v-slide-group show-arrows>
-                        <v-slide-group-item v-for="n in 15" :key="n">
-                            <PlaylistCard></PlaylistCard>
-                        </v-slide-group-item>
-                    </v-slide-group>
-                </v-row>
-            </div>
-
-            <div class="mb-10">
-
-                <h1 class="text-h4 font-weight-bold mb-5">Choose your style</h1>
-
-                <v-row>
-                    <v-slide-group show-arrows>
-                        <v-slide-group-item v-for="n in 15" :key="n">
-                            <PlaylistCard></PlaylistCard>
-                        </v-slide-group-item>
-                    </v-slide-group>
-                </v-row>
-            </div>
+            <v-row>
+                <v-col cols="6" sm="3" md="3" v-for="playlist, k in playlists" :key="k">
+                    <PlaylistCard :item="playlist"></PlaylistCard>
+                </v-col>
+            </v-row>
 
         </v-responsive>
     </v-container>
@@ -50,19 +24,6 @@
 import PlaylistCard from './../components/PlaylistCard.vue';
 
 export default {
-
     components: { PlaylistCard },
-
-	data() {
-
-		return {
-		}
-	},
-
-    async mounted() {
-    },
-
-    methods: {
-    },
 }
 </script>
