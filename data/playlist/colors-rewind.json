@@ -1,0 +1,45 @@
+{
+    "title": "Colors Rewind",
+    "cover": "./../../src/assets/cover/playlist/colors-2.jpg",
+    "items": [{
+        "artist": "Black Sabbath",
+        "title": "Iron Man",
+        "coverURL": "https://i.discogs.com/S7jhGrgIYY9A4BUWX6ZS_IZtz5dP9DNmIX9s3FlW2YA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1MTI0/MS0xNjM2MDMyMDMx/LTY3NDIuanBlZw.jpeg"
+    }, {
+        "artist": "Les Inconnus",
+        "title": "Isabelle a les yeux bleus",
+        "coverURL": "https://i.discogs.com/wTrvCdczFG4ACi8LRGk_Sh5OqoZZPJxvGf8OOXV5bT4/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk3MzA0/Mi0xMTg5NTQ0ODAy/LmpwZWc.jpeg"
+    }, {
+        "artist": "NTM",
+        "title": "Blanc et noir",
+        "coverURL": "https://i.discogs.com/5tTJPhQujATesO0n0CwUPAfN2TtQ_QMbxqOsFAFH9KY/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzMDU5/Ni0xNjUzNTE0ODIx/LTc3NzguanBlZw.jpeg"
+    }, {
+        "artist": "Coldplay",
+        "title": "Yellow",
+        "coverURL": "https://i.discogs.com/aoPzscmlWygkVQvAJzh1DEvD3QUWHlGnAhQPKonzaFU/rs:fit/g:sm/q:90/h:552/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyMjA3/MS0xMTY1NDE1ODg2/LmpwZWc.jpeg"
+    }, {
+        "artist": "The Black Keys",
+        "title": "Lonely Boy",
+        "coverURL": "https://i.discogs.com/6_WOJaeomTdMniVDPW9bZ9cOPR5xAf5eXH7ncDqZaYQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMzg0/MjYtMTQ2NDM4OTU3/NC02NDAzLnBuZw.jpeg"
+    }, {
+        "artist": "Les Négresses Vertes",
+        "title": "Voilà l'été",
+        "coverURL": "https://i.discogs.com/Ff8MSnfpykhTYYSA4S8cwugGKPwUcrMdU0yh2j6OPC4/rs:fit/g:sm/q:90/h:590/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MjM2/ODItMTIyNTk1NTMy/Ni5qcGVn.jpeg"
+    }, {
+        "artist": "Jefferson Airplane",
+        "title": "White Rabbit",
+        "coverURL": "https://i.discogs.com/76Pn9XVL_h3VICiUxOpis0ez36rzxo3sPKyKfwzLCAU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExODMz/MDU0LTE1MjMxNDYz/MTAtNTU0NS5qcGVn.jpeg"
+    }, {
+        "artist": "Will Smith",
+        "title": "Men In Black",
+        "coverURL": "https://i.discogs.com/WiL5D9Ks3gYm8R6p2g0BjRpuoOn_cfaYJ4Fu89szAL8/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwOTMw/My0xMTYyMjQzNDE5/LmpwZWc.jpeg"
+    }, {
+        "artist": "Ninho",
+        "title": "Violet",
+        "coverURL": "https://i.discogs.com/QLmWdH55hSx1wM2tC5hLh6uX1GNI9P28llPe2qN8maw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMzI2/MjE4LTE1NTIxMzkz/NDMtMzY5Ni5qcGVn.jpeg"
+    }, {
+        "artist": "AC/DC",
+        "title": "Back In Black",
+        "coverURL": "https://i.discogs.com/SmIONVwpLyWK2PwD-46ujP9935T9heE70B2KzLU0eBs/rs:fit/g:sm/q:90/h:404/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg0NzUy/LTE0NDc3NjY2NDEt/NjM0My5qcGVn.jpeg"
+    }]
+}

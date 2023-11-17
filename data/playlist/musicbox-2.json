@@ -1,1 +1,25 @@
-{"title":"Boite à musique - 2","items":[{"artist":"Lady Gaga & Bradley Cooper","title":"Shallow","coverURL":"https://i.discogs.com/BsTWs7B0Dl9XMAVKM-R5zJIeyPIdUwi-5cgeGKG-F-A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjE3/MjEzLTE1NDAwOTE2/MTUtNTMxNC5qcGVn.jpeg"},{"artist":"Linkin Park","title":"In the End","coverURL":"https://i.discogs.com/INz6CiIut8qN5JOCgt2-741kiFdHpuBP4VNa7DfZUL0/rs:fit/g:sm/q:90/h:598/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyMTM4/Ny0xMzM5OTAyOTI2/LTIzOTUuanBlZw.jpeg"},{"artist":"Dragonforce","title":"Through the Fire and Flames","coverURL":"https://i.discogs.com/WaQL9Lplyc7dBLewGjz0swoX1Xi51a6hIu29XOzM_gY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMTkx/NjctMTUyOTI0MjIw/Ny03NjY5LmpwZWc.jpeg"},{"artist":"AWOLNATION","title":"Sail","coverURL":"https://i.discogs.com/Jz_vDifpNNThc-Oil3Pg6i7Sam31T9K2i7DgFsHNwFo/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NjQ0/NzUtMTMyOTg1MzMx/Ny5qcGVn.jpeg"},{"artist":"Adele","title":"Set Fire To The Rain","coverURL":"https://i.discogs.com/vGlFXdpzOQrDu24Vns03HNxUSknna_uSBbAsxSkFPkU/rs:fit/g:sm/q:90/h:504/w:492/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5ODkx/MzAtMTY0OTIxMDc4/OC00MDA2LnBuZw.jpeg"}]}
+{
+    "title": "Boite à musique - 2",
+    "cover": "./../../src/assets/cover/playlist/music-box-2.jpg",
+    "items": [{
+        "artist": "Lady Gaga & Bradley Cooper",
+        "title": "Shallow",
+        "coverURL": "https://i.discogs.com/BsTWs7B0Dl9XMAVKM-R5zJIeyPIdUwi-5cgeGKG-F-A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjE3/MjEzLTE1NDAwOTE2/MTUtNTMxNC5qcGVn.jpeg"
+    }, {
+        "artist": "Linkin Park",
+        "title": "In the End",
+        "coverURL": "https://i.discogs.com/INz6CiIut8qN5JOCgt2-741kiFdHpuBP4VNa7DfZUL0/rs:fit/g:sm/q:90/h:598/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyMTM4/Ny0xMzM5OTAyOTI2/LTIzOTUuanBlZw.jpeg"
+    }, {
+        "artist": "Dragonforce",
+        "title": "Through the Fire and Flames",
+        "coverURL": "https://i.discogs.com/WaQL9Lplyc7dBLewGjz0swoX1Xi51a6hIu29XOzM_gY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMTkx/NjctMTUyOTI0MjIw/Ny03NjY5LmpwZWc.jpeg"
+    }, {
+        "artist": "AWOLNATION",
+        "title": "Sail",
+        "coverURL": "https://i.discogs.com/Jz_vDifpNNThc-Oil3Pg6i7Sam31T9K2i7DgFsHNwFo/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NjQ0/NzUtMTMyOTg1MzMx/Ny5qcGVn.jpeg"
+    }, {
+        "artist": "Adele",
+        "title": "Set Fire To The Rain",
+        "coverURL": "https://i.discogs.com/vGlFXdpzOQrDu24Vns03HNxUSknna_uSBbAsxSkFPkU/rs:fit/g:sm/q:90/h:504/w:492/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5ODkx/MzAtMTY0OTIxMDc4/OC00MDA2LnBuZw.jpeg"
+    }]
+}

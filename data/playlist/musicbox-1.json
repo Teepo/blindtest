@@ -1,1 +1,25 @@
-{"title":"Boite à musique - 1","items":[{"artist":"The Rolling Stones","title":"Paint It, Black","coverURL":"https://i.discogs.com/kcTzVWSxKK2WU0c3_2gK2WHA1lBIUHULykv8sOyMYHg/rs:fit/g:sm/q:90/h:581/w:581/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2ODIz/Mi0xNTY0MTE2NjU5/LTUxMTQuanBlZw.jpeg"},{"artist":"BTS","title":"Blood Sweat & Tears","coverURL":"https://i.discogs.com/_OhAlYgjN6pwnvhGSoiwjV-EFNAovHmn06MtwoVTFWI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNDQ2/OTQzLTE1NTQzODMy/MDMtMjI2Ni5qcGVn.jpeg"},{"artist":"John Legend","title":"All of Me","coverURL":"https://i.discogs.com/_cydOktnAe5XvPrm6aKjV4NoiPXFAsDIfJ2kyaQ7u0k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1Nzcy/MzEtMTY0MjU2NTE5/My04MTQ4LmpwZWc.jpeg"},{"artist":"Papa Roach","title":"Last Resort","coverURL":"https://i.discogs.com/J4lRFvZF8ydE6pQrIAL03xGvNSSUcFROK__L8pfDhps/rs:fit/g:sm/q:90/h:436/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5Nzk5/MS0xMTM5MDgzNTMy/LmpwZWc.jpeg"},{"artist":"Le Temps des Cathédrales","title":"Bruno Pelletier","coverURL":"https://i.discogs.com/Mvi6bOJkgzoYVzPJGfc2f7S7lomhh2uXMZtDPG0DEug/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTkx/NTYzLTE1MDA1Mzc1/NzctOTExMC5qcGVn.jpeg"}]}
+{
+    "title": "Boite à musique - 1",
+    "cover": "./../../src/assets/cover/playlist/music-box-1.jpg",
+    "items": [{
+        "artist": "The Rolling Stones",
+        "title": "Paint It, Black",
+        "coverURL": "https://i.discogs.com/kcTzVWSxKK2WU0c3_2gK2WHA1lBIUHULykv8sOyMYHg/rs:fit/g:sm/q:90/h:581/w:581/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2ODIz/Mi0xNTY0MTE2NjU5/LTUxMTQuanBlZw.jpeg"
+    }, {
+        "artist": "BTS",
+        "title": "Blood Sweat & Tears",
+        "coverURL": "https://i.discogs.com/_OhAlYgjN6pwnvhGSoiwjV-EFNAovHmn06MtwoVTFWI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNDQ2/OTQzLTE1NTQzODMy/MDMtMjI2Ni5qcGVn.jpeg"
+    }, {
+        "artist": "John Legend",
+        "title": "All of Me",
+        "coverURL": "https://i.discogs.com/_cydOktnAe5XvPrm6aKjV4NoiPXFAsDIfJ2kyaQ7u0k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1Nzcy/MzEtMTY0MjU2NTE5/My04MTQ4LmpwZWc.jpeg"
+    }, {
+        "artist": "Papa Roach",
+        "title": "Last Resort",
+        "coverURL": "https://i.discogs.com/J4lRFvZF8ydE6pQrIAL03xGvNSSUcFROK__L8pfDhps/rs:fit/g:sm/q:90/h:436/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5Nzk5/MS0xMTM5MDgzNTMy/LmpwZWc.jpeg"
+    }, {
+        "artist": "Le Temps des Cathédrales",
+        "title": "Bruno Pelletier",
+        "coverURL": "https://i.discogs.com/Mvi6bOJkgzoYVzPJGfc2f7S7lomhh2uXMZtDPG0DEug/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTkx/NTYzLTE1MDA1Mzc1/NzctOTExMC5qcGVn.jpeg"
+    }]
+}

@@ -1,1 +1,25 @@
-{"title":"Step by Step - 2","items":[{"artist":"The Killers","title":"Mr. Brightside","coverURL":"https://i.discogs.com/sYhiirGp79lspBpq79_wg7cl7e8SfLfFtBddNbgGTc8/rs:fit/g:sm/q:90/h:551/w:563/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NTg0/Ni0xMTc2MjA2OTI3/LmpwZWc.jpeg"},{"artist":"Ariana Grande","title":"Into You","coverURL":"https://i.discogs.com/Vgz_QrzeElVqpjLo1oa7a19nNNse-1uaJEJwb_groeY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NDY4/NTktMTQ2Mzc5MDA1/My0yOTI0LmpwZWc.jpeg"},{"artist":"Massive Attack","title":"Teardrop","coverURL":"https://i.discogs.com/HIVE109wjs4Fd2-ciHMK8PV3WsXbHujQbsJrTi-EIXI/rs:fit/g:sm/q:90/h:461/w:445/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTAy/Ny0xMjE1OTUxNzE3/LmpwZWc.jpeg"},{"artist":"Rage Against The Machine","title":"Killing In the Name","coverURL":"https://i.discogs.com/drSu4I1xeUeYnythtwojPgOns_ZV9tN4dvOIEiqd34Y/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2NzMz/OS0xMjU5MjM2MTE1/LmpwZWc.jpeg"},{"artist":"The Jackson 5","title":"I Want You Back","coverURL":"https://i.discogs.com/0dtQsZijUNglIv6y05YmjFj_-kIGI7vmemL9w5JzQns/rs:fit/g:sm/q:90/h:602/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExOTAy/MzUtMTU5ODc1NjIy/MS05NDYyLmpwZWc.jpeg"}]}
+{
+    "title": "Step by Step - 2",
+    "cover": "./../../src/assets/cover/playlist/step-by-step-2.jpg",
+    "items": [{
+        "artist": "The Killers",
+        "title": "Mr. Brightside",
+        "coverURL": "https://i.discogs.com/sYhiirGp79lspBpq79_wg7cl7e8SfLfFtBddNbgGTc8/rs:fit/g:sm/q:90/h:551/w:563/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NTg0/Ni0xMTc2MjA2OTI3/LmpwZWc.jpeg"
+    }, {
+        "artist": "Ariana Grande",
+        "title": "Into You",
+        "coverURL": "https://i.discogs.com/Vgz_QrzeElVqpjLo1oa7a19nNNse-1uaJEJwb_groeY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NDY4/NTktMTQ2Mzc5MDA1/My0yOTI0LmpwZWc.jpeg"
+    }, {
+        "artist": "Massive Attack",
+        "title": "Teardrop",
+        "coverURL": "https://i.discogs.com/HIVE109wjs4Fd2-ciHMK8PV3WsXbHujQbsJrTi-EIXI/rs:fit/g:sm/q:90/h:461/w:445/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTAy/Ny0xMjE1OTUxNzE3/LmpwZWc.jpeg"
+    }, {
+        "artist": "Rage Against The Machine",
+        "title": "Killing In the Name",
+        "coverURL": "https://i.discogs.com/drSu4I1xeUeYnythtwojPgOns_ZV9tN4dvOIEiqd34Y/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2NzMz/OS0xMjU5MjM2MTE1/LmpwZWc.jpeg"
+    }, {
+        "artist": "The Jackson 5",
+        "title": "I Want You Back",
+        "coverURL": "https://i.discogs.com/0dtQsZijUNglIv6y05YmjFj_-kIGI7vmemL9w5JzQns/rs:fit/g:sm/q:90/h:602/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExOTAy/MzUtMTU5ODc1NjIy/MS05NDYyLmpwZWc.jpeg"
+    }]
+}

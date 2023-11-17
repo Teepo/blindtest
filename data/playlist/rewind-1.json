@@ -1,1 +1,45 @@
-{"title":"Rewind - 1","items":[{"artist":"Linkin Park","title":"Numb","coverURL":"https://i.discogs.com/cq9c0iABTDa6Ih6D5cJsNx4OANtKVFgUONoK4-cR8nw/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg0OTA5/MS0xMzQ1NjE2ODE2/LTMwMTUuanBlZw.jpeg"},{"artist":"DJ BoBo","title":"CHIHUAHUA","coverURL":"https://i.discogs.com/jhYQlqEx2-ipWZP_ucu9eekML56HPJeKXlPczu-mYfI/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDgy/MzktMTIwODM4MDIw/NS5qcGVn.jpeg"},{"artist":"Michel Sardou","title":"La maladie d'amour","coverURL":"https://i.discogs.com/BHG3js19tvw-Y7PWjhXeXUmWfWs0aYW1vbDVHulnrQo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzEw/NDAtMTMzODIyOTgx/MC0xNzMxLmpwZWc.jpeg"},{"artist":"Sum 41","title":"Pieces","coverURL":"https://i.discogs.com/6yRLGlHUYEDcsKqVGLb7aH7oIMntsU-jdqW0FmiKKbI/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MDk1/MjMtMTUwMzg0MzU4/Mi01ODg1LmpwZWc.jpeg"},{"artist":"Daddy DJ","title":"Daddy DJ","coverURL":"https://i.discogs.com/MplIJNdRsk708Q2hkxJFETUIleUzc72VOUuE_3ZCunI/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzMjY3/OC0xMTYzMzc0MTY5/LmpwZWc.jpeg"},{"artist":"Lady Gaga","title":"Born This Way","coverURL":"https://i.discogs.com/pot8C6a18dxAij12ctr8QGfIKoVSOSrcPvFgfCb141w/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMDgw/NzgtMTMzMDUzMTA0/MC5qcGVn.jpeg"},{"artist":"Claude François","title":"Bélinda","coverURL":"https://i.discogs.com/ZtYNw8T6l6NoAtAvwaVWzbJx4uR1D8Kq0v40YtsK9IE/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0NDQz/MzktMTM5MzUyOTEw/OC0xNzc1LmpwZWc.jpeg"},{"artist":"Gigi D'Agostino","title":"The Riddle","coverURL":"https://i.discogs.com/-6KM7_eXFBJSPT8QkmVgUoOOrqqoZNWExQrfg_hTFoc/rs:fit/g:sm/q:90/h:522/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNDg5/MDAtMTU5MTM2NzM2/NC0yMDk0LmpwZWc.jpeg"},{"artist":"Blink-182","title":"All The Small Things","coverURL":"https://i.discogs.com/HYuikRIURB3HwY_WbmjzR5KwJCfYvPeh_GmAfWVhP_4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MjQ1/My0xNTAxNDI0ODg2/LTI4ODUuanBlZw.jpeg"},{"artist":"Maurane ","title":"Sur Un Prélude De Bach","coverURL":"https://i.discogs.com/F2qDU63_bFa-MVgrGKHsggSvGQBuvhLFvJDQiBlIhus/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxNTU0/MTktMTM4NjA4NDAy/MS0yNzkzLmpwZWc.jpeg"}]}
+{
+    "title": "Rewind - 1",
+    "cover": "./../../src/assets/cover/playlist/rewind-1.jpg",
+    "items": [{
+        "artist": "Linkin Park",
+        "title": "Numb",
+        "coverURL": "https://i.discogs.com/cq9c0iABTDa6Ih6D5cJsNx4OANtKVFgUONoK4-cR8nw/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg0OTA5/MS0xMzQ1NjE2ODE2/LTMwMTUuanBlZw.jpeg"
+    }, {
+        "artist": "DJ BoBo",
+        "title": "CHIHUAHUA",
+        "coverURL": "https://i.discogs.com/jhYQlqEx2-ipWZP_ucu9eekML56HPJeKXlPczu-mYfI/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDgy/MzktMTIwODM4MDIw/NS5qcGVn.jpeg"
+    }, {
+        "artist": "Michel Sardou",
+        "title": "La maladie d'amour",
+        "coverURL": "https://i.discogs.com/BHG3js19tvw-Y7PWjhXeXUmWfWs0aYW1vbDVHulnrQo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzEw/NDAtMTMzODIyOTgx/MC0xNzMxLmpwZWc.jpeg"
+    }, {
+        "artist": "Sum 41",
+        "title": "Pieces",
+        "coverURL": "https://i.discogs.com/6yRLGlHUYEDcsKqVGLb7aH7oIMntsU-jdqW0FmiKKbI/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MDk1/MjMtMTUwMzg0MzU4/Mi01ODg1LmpwZWc.jpeg"
+    }, {
+        "artist": "Daddy DJ",
+        "title": "Daddy DJ",
+        "coverURL": "https://i.discogs.com/MplIJNdRsk708Q2hkxJFETUIleUzc72VOUuE_3ZCunI/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzMjY3/OC0xMTYzMzc0MTY5/LmpwZWc.jpeg"
+    }, {
+        "artist": "Lady Gaga",
+        "title": "Born This Way",
+        "coverURL": "https://i.discogs.com/pot8C6a18dxAij12ctr8QGfIKoVSOSrcPvFgfCb141w/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMDgw/NzgtMTMzMDUzMTA0/MC5qcGVn.jpeg"
+    }, {
+        "artist": "Claude François",
+        "title": "Bélinda",
+        "coverURL": "https://i.discogs.com/ZtYNw8T6l6NoAtAvwaVWzbJx4uR1D8Kq0v40YtsK9IE/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0NDQz/MzktMTM5MzUyOTEw/OC0xNzc1LmpwZWc.jpeg"
+    }, {
+        "artist": "Gigi D'Agostino",
+        "title": "The Riddle",
+        "coverURL": "https://i.discogs.com/-6KM7_eXFBJSPT8QkmVgUoOOrqqoZNWExQrfg_hTFoc/rs:fit/g:sm/q:90/h:522/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNDg5/MDAtMTU5MTM2NzM2/NC0yMDk0LmpwZWc.jpeg"
+    }, {
+        "artist": "Blink-182",
+        "title": "All The Small Things",
+        "coverURL": "https://i.discogs.com/HYuikRIURB3HwY_WbmjzR5KwJCfYvPeh_GmAfWVhP_4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MjQ1/My0xNTAxNDI0ODg2/LTI4ODUuanBlZw.jpeg"
+    }, {
+        "artist": "Maurane ",
+        "title": "Sur Un Prélude De Bach",
+        "coverURL": "https://i.discogs.com/F2qDU63_bFa-MVgrGKHsggSvGQBuvhLFvJDQiBlIhus/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxNTU0/MTktMTM4NjA4NDAy/MS0yNzkzLmpwZWc.jpeg"
+    }]
+}
