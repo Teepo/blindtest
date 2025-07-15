@@ -1,0 +1,220 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Fatal bazooka - J'aime trop ton boule</title>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(12, 1fr);
+        }
+
+        .grid-item {
+            grid-column: auto / span 6;
+        }
+
+        .container {
+            position: relative;
+            padding: 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>Fatal bazooka - J'aime trop ton boule</h1>
+
+        <div class="grid">
+
+            <div class="grid-item">
+                <pre></pre>
+            </div>
+
+            <div class="grid-item">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const synth = window.speechSynthesis;
+
+        const form = document.querySelector('form');
+
+        const voice = getVoiceFR();
+
+        function getVoiceFR() {
+            voices = synth.getVoices().find(function (voice) {
+                return voice.lang === 'fr-FR';
+            });
+        }
+
+        const words = `
+Ouais, ce soir j'arrive dans le club en mode chacal
+Ce soir dans le club ça va être bestial, ouh ahh
+J'te ripère au milieu de la piste, ouh ahh
+Comment t'es mag-nifique !
+Salut beauté, moi c'est original Gangsta, authentic lover
+Tu danses bébé ? Humm, ça va être chaud !
+
+Tu sais que t'es bien moulé dans ton p'tit jean
+J'aime trop ton style quand tu te dandines (ouais !)
+Franchement t'es au top, t'es trop sublime
+Viens chez moi, on boira pas de la grenadine
+
+Si t'es pressé, on fait ça sur le parking (ouais)
+Si t'es pas pressé faut qu'je passe au pressing
+J'vais te démonter comme une tente de camping
+Ce sera tellement chaud, on va passer au zapping
+
+Si j'te fais trop mal, à coté y a une clinique (ouais)
+Si tu veux du monde, on peut faire ça en public (ouais)
+Moi j'garde mes chaussettes, je trouve ça plus pratique (ouais)
+Je t'avais prévenu, j'suis un grand romantique (ouh)
+
+Quand je te mate, j'ai vraiment trop les boules (ah)
+Quand je te tâte, j'veux plus jouer aux boules
+Quand tu veux que je t'attrape, quand tu veux qu'j'te boule
+Tu sais que t'es un beau mâle, tu sais que t'as un beau boule... mec
+You might also like
+Fous ta cagoule
+Ce matin va être une pure soirée
+Without Me
+Eminem
+T'es trop mon style, t'es trop mon style
+T'es trop mon style de mec
+J'aime trop ton boule, j'aime trop ton boule
+J'aime trop de boule de mec
+T'es trop mon style, t'es trop mon style
+T'es trop mon style de mec
+J'aime trop ton boule, j'aime trop ton boule
+J'aime quand tu booty shake
+
+J'aime quand tu shake ton booty mec
+J'aime quand tu booty shake
+J'aime quand tu shake ton booty
+Shake, shake, shake
+J'aime quand tu shake ton booty mec
+J'aime quand tu booty shake
+J'aime quand tu shake ton booty
+Shake (shake, shake)
+
+T'es trop mon style, t'es trop mon style de mec, mec
+Vas-y laisse-moi, laisse-moi toucher tes pecs, pecs (ouais)
+Dans mon baggy, c'est le plan sexe, sexe (ouh)
+Si t'as besoin d'argent, je peux te faire un chèque, chèque
+
+Toi et moi ce sera Broke-Ass Mountain (ouh)
+J'aime trop ta sueur, j'aime trop ton haleine
+Je veux que tu m'fasses du mal sans me faire de peine
+Tu peux même me gifler, me mettre une golden
+J'veux pas savoir ton nom, j'm'en fous, j'suis pas flic
+Vu ton matos, j't'appelle Moby le dick
+T'es bien bâti boy, comme une Honda Civic
+Je ferai Angelina et tu feras Brad Pitt
+
+Moi je veux te mater, j'éteins pas l'halogène
+Tu peux m'mettre une perruque, tu peux m'appeler Madeleine
+Même si j'suis un peu gros, si j'ai un peu de bedaine
+Tu vas voir même en blonde je suis pas si vilaine
+
+T'es trop mon style, t'es trop mon style
+T'es trop mon style de mec
+J'aime trop ton boule, j'aime trop ton boule
+J'aime trop de boule de mec
+T'es trop mon style, t'es trop mon style
+T'es trop mon style de mec
+J'aime trop ton boule, j'aime trop ton boule
+J'aime quand tu booty shake
+
+J'aime quand tu shake ton booty mec
+J'aime quand tu booty shake
+J'aime quand tu shake ton booty
+Shake, shake, shake
+J'aime quand tu shake ton booty mec
+J'aime quand tu booty shake
+J'aime quand tu shake ton booty
+Shake, shake, shake ton booty
+Keum viril cherche mec docile, t'es quel genre de mâle ?
+(Shake, shake ton booty)
+25 ans, du sex appeal, c'est quoi l'idéal ?
+(Shake ton booty)
+25 centimètres pile, est-ce que tu as des poils ?
+(Shake, shake ton booty)
+Tous les jours, je m'épile et je m'appelle Fatal
+Ouais mec
+
+Ouais ! Allez tous les mecs shakent leur booty là !
+(Shake ton booty)
+Oh ouais, vas-y bébé, bouge ton boule, t'es beau mec !
+(Shake, shake ton booty)
+Allez tout le monde, les bruns, les blonds, les chauves, les roux
+Non ! Pas les roux !
+(Shake ton booty)
+Ahh, j'suis en sueur, vous êtes tous mon style de mec, les mecs !
+
+T'es trop mon style, t'es trop mon style
+T'es trop mon style de mec (tout l'monde, tout l'monde)
+J'aime trop ton boule, j'aime trop ton boule
+J'aime trop de boule de mec (encore !)
+T'es trop mon style, t'es trop mon style
+T'es trop mon style de mec
+J'aime trop ton boule, j'aime trop ton boule
+J'aime quand tu booty shake (tout l'monde, tout l'monde, tout l'monde)
+
+J'aime quand tu shake ton booty mec (allez shake !)
+J'aime quand tu booty shake (seulement les mecs !)
+J'aime quand tu shake ton booty (allez bouge ton booty !)
+Shake, shake, shake (ouais !)
+J'aime quand tu shake ton booty mec (allez beau brun !)
+J'aime quand tu booty shake
+J'aime quand tu shake ton booty (shake, shake, uh !)
+Shake, shake
+
+Shake ton booty (ahh...)
+`;
+
+        document.querySelector("pre").textContent = words;
+
+        const speecher = new SpeechSynthesisUtterance(words);
+
+        speecher.pitch = 1;
+        speecher.rate = 1;
+
+        document.querySelector("#play").addEventListener("click", event => {
+
+            speecher.voice = voice;
+
+            synth.speak(speecher);
+        });
+
+        const pauseNode = document.querySelector("#pause");
+        pauseNode.addEventListener("click", event => {
+
+            if (synth.paused) {
+                pauseNode.textContent = "Pause";
+                synth.resume();
+            } else if (synth.speaking) {
+                pauseNode.textContent = "Resume";
+                synth.pause();
+            }
+        });
+
+        document.querySelector("#stop").addEventListener("click", event => {
+            synth.cancel();
+        });
+    </script>
+
+</body>
+</html>

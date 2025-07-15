@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Keen'V - Tahiti</title>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(12, 1fr);
+        }
+
+        .grid-item {
+            grid-column: auto / span 6;
+        }
+
+        .container {
+            position: relative;
+            padding: 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>Keen'V - Tahiti</h1>
+
+        <div class="grid">
+
+            <div class="grid-item">
+                <pre></pre>
+            </div>
+
+            <div class="grid-item">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const synth = window.speechSynthesis;
+
+        const form = document.querySelector('form');
+
+        const voice = getVoiceFR();
+
+        function getVoiceFR() {
+            voices = synth.getVoices().find(function (voice) {
+                return voice.lang === 'fr-FR';
+            });
+        }
+
+        const words = `
+Mesdames et messieurs, bonjour, vous êtes sur le vol 777 à destination de meuhmeuh,
+je vais vous demander de bien vouloir remonter votre cache-hublot,
+je suis le commandant meuhmeuh, bienvenue à bord
+
+Un jour j'irai à meuhmeuh, c'est là que je vivrai ma meilleure vie
+Un jour j'irai à meuhmeuh, c'est là que je vivrai ma meilleure vie
+
+J'ai pris mes billets, Air meuhmeuh
+Le voyage durera une journée et une nuit
+T'as compris l'idée, je veux fuir l'ennui
+Un petit tour, un coin de paradis
+
+Je vais m'envoler (hé hé)
+Mais je n'oublie pas (ah ah)
+Quand je partirai (hé hé)
+[ I a Orana] (ah ah)
+Fleur de Tiaré (hé hé)
+Et Manava (ah ah)
+Quand j'y serai je ne repartirai pas
+
+Un jour j'irai à meuhmeuh, c'est là que je vivrai ma meilleure vie
+Un jour j'irai à meuhmeuh, c'est là que je vivrai ma meilleure vie
+
+Dans cet endroit merveilleux, où il n'y a pas d'hiver
+Je vais en prendre plein les yeux
+Dans ce paradis découvert
+Oui je ferai des envieux
+Dans ce petit coin de vert
+Sûrement un des plus beaux lieux de l'univers
+
+Pouvoir me baigner dans ce beau lagon
+Un jour j'irai (hé hé), un jour j'irai (hé hé)
+Oui au soleil tout me semblera beau
+Un jour j'irai alors viens avec moi
+
+Un jour j'irai à meuhmeuh, c'est là que je vivrai ma meilleure vie
+Un jour j'irai à meuhmeuh, c'est là que je vivrai ma meilleure vie
+
+Papeete, Moorea, toi et moi, on ira
+Tuamotu, Bora Bora, toi et moi, on ira
+
+Papeete (hey hey) Moorea (hey hey) toi et moi (hey hey) on ira (hey hey)
+Tuamotu (hey hey) Bora Bora (hey hey) toi et moi (hey hey) on ira
+
+Un jour j'irai à meuhmeuh, c'est là que je vivrai ma meilleure vie
+Un jour j'irai à meuhmeuh, c'est là que je vivrai ma meilleure vie
+`;
+
+        document.querySelector("pre").textContent = words;
+
+        const speecher = new SpeechSynthesisUtterance(words);
+
+        speecher.pitch = 1;
+        speecher.rate = 1;
+
+        document.querySelector("#play").addEventListener("click", event => {
+
+            speecher.voice = voice;
+
+            synth.speak(speecher);
+        });
+
+        const pauseNode = document.querySelector("#pause");
+        pauseNode.addEventListener("click", event => {
+
+            if (synth.paused) {
+                pauseNode.textContent = "Pause";
+                synth.resume();
+            } else if (synth.speaking) {
+                pauseNode.textContent = "Resume";
+                synth.pause();
+            }
+        });
+
+        document.querySelector("#stop").addEventListener("click", event => {
+            synth.cancel();
+        });
+    </script>
+
+</body>
+</html>
