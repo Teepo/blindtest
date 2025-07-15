@@ -1,25 +1,140 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Pitch Shift en temps réel (static)</title>
+  <meta charset="UTF-8" />
+  <title>Lecteur MP3 avec contrôle vitesse</title>
   <style>
-    body { font-family: sans-serif; padding: 2em; }
-    input[type="range"] { width: 100%; }
-    #pitchValue { font-weight: bold; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      max-width: 400px;
+    }
+    label {
+      display: block;
+      margin: 1rem 0 0.5rem;
+    }
+    input[type=range] {
+      width: 100%;
+    }
+    button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+    }
   </style>
 </head>
 <body>
-  <h1>Pitch Shift temps réel (pitch ≠ tempo)</h1>
 
-  <input type="file" id="fileInput" accept="audio/mp3,audio/wav"><br><br>
+<h1>Lecteur MP3 avec vitesse (pitch + tempo)</h1>
 
-  <div id="controls" style="display:none;">
-    <button id="playPause">▶️ Lecture</button>
-    <p>Pitch : <span id="pitchValue">0</span> demi‑tons</p>
-    <input type="range" id="pitchSlider" min="-12" max="12" step="0.1" value="0">
-  </div>
+<input type="file" id="fileInput" accept=".mp3,audio/*" />
+<br/>
 
-  <script type="module" src="./app.js"></script>
+<button id="playPauseBtn" disabled>▶️ Lire</button>
+
+<label for="speedRange">Vitesse (pitch et tempo) : <span id="speedVal">1.0</span></label>
+<input type="range" id="speedRange" min="0.5" max="2.0" step="0.1" value="1.0" />
+
+<script>
+  const fileInput = document.getElementById('fileInput');
+  const playPauseBtn = document.getElementById('playPauseBtn');
+  const speedRange = document.getElementById('speedRange');
+  const speedVal = document.getElementById('speedVal');
+
+  let audioContext;
+  let sourceNode;
+  let gainNode;
+  let buffer;
+  let isPlaying = false;
+
+  let startTime = 0;
+  let pauseOffset = 0;
+
+  function createAudioContext() {
+    if (!audioContext) {
+      audioContext = new AudioContext();
+    }
+  }
+
+  function stopAudio() {
+    if (sourceNode) {
+      sourceNode.stop();
+      sourceNode.disconnect();
+      sourceNode = null;
+    }
+    isPlaying = false;
+    playPauseBtn.textContent = "▶️ Lire";
+  }
+
+  function playAudio() {
+    if (!buffer) return;
+
+    createAudioContext();
+
+    sourceNode = audioContext.createBufferSource();
+    sourceNode.buffer = buffer;
+
+    gainNode = audioContext.createGain();
+
+    sourceNode.connect(gainNode);
+    gainNode.connect(audioContext.destination);
+
+    sourceNode.playbackRate.value = parseFloat(speedRange.value);
+
+    startTime = audioContext.currentTime - pauseOffset;
+    sourceNode.start(0, pauseOffset);
+
+    isPlaying = true;
+    playPauseBtn.textContent = "⏸️ Pause";
+
+    sourceNode.onended = () => {
+      isPlaying = false;
+      pauseOffset = 0;
+      playPauseBtn.textContent = "▶️ Lire";
+    };
+  }
+
+  playPauseBtn.addEventListener('click', () => {
+    if (!isPlaying) {
+      playAudio();
+    } else {
+      pauseAudio();
+    }
+  });
+
+  function pauseAudio() {
+    if (sourceNode) {
+      sourceNode.stop();
+      pauseOffset = audioContext.currentTime - startTime;
+      isPlaying = false;
+      playPauseBtn.textContent = "▶️ Lire";
+    }
+  }
+
+  fileInput.addEventListener('change', async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    createAudioContext();
+
+    const arrayBuffer = await file.arrayBuffer();
+    buffer = await audioContext.decodeAudioData(arrayBuffer);
+
+    playPauseBtn.disabled = false;
+    speedRange.disabled = false;
+    pauseOffset = 0;
+    isPlaying = false;
+    playPauseBtn.textContent = "▶️ Lire";
+  });
+
+  speedRange.addEventListener('input', () => {
+    speedVal.textContent = speedRange.value;
+
+    if (sourceNode && isPlaying) {
+      sourceNode.playbackRate.value = parseFloat(speedRange.value);
+    }
+  });
+</script>
+
 </body>
 </html>
