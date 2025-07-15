@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Helmut Fritz - Ca M'Enerve</title>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(12, 1fr);
+        }
+
+        .grid-item {
+            grid-column: auto / span 6;
+        }
+
+        .container {
+            position: relative;
+            padding: 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>Helmut Fritz - Ca M'Enerve</h1>
+
+        <div class="grid">
+
+            <div class="grid-item">
+                <pre></pre>
+            </div>
+
+            <div class="grid-item">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const synth = window.speechSynthesis;
+
+        const form = document.querySelector('form');
+
+        const voice = getVoiceFR();
+
+        function getVoiceFR() {
+            voices = synth.getVoices().find(function (voice) {
+                return voice.lang === 'fr-FR';
+            });
+        }
+
+        const words = `
+J'entre au Costes boire un verre
+Mais la serveuse me pompe l'air
+J'ai pas la réservation
+Je ressors j'ai l'air d'un con
+Ca meuh meuh, oui ça meuh meuh 
+J'ai un cadeau à faire
+De chez Zadig & Voltaire
+Le pull où c'est marqué "Rock"
+Mais y'a la rupture de stock
+
+Toutes celles qui portent la frange à la Kate Moss
+Le rouge à lèvres c'est fini maintenant c'est le gloss
+Toutes celles qui rentrent dans le jean slim en taille 34
+La seule vue sur le string te donne envie de les abattre
+Scheisse !
+
+Devant le club VIP y'a plein de Lamborghini
+Moi j'arrive sur mon vespa on me dit tu rentres pas
+Mais ça meuh meuh
+J'entre chez Weston une blondasse au téléphone me dit
+je peux vous aider ?
+Non je vous ai pas sonné
+Elle m'énerve, mon Dieu qu'elle m'énerve
+J'ai bu le mojito au Milliardaire
+Dans le carré j'ai tout vomi par terre
+J'ai perdu mon ticket pour le vestiaire
+Je trouve pas de taxi, ach, c'est la guerre !
+
+Toutes celles qui portent la frange à la Kate Moss
+Le rouge à lèvres c'est fini maintenant c'est le gloss
+Toutes celles qui boivent le champagne rosé
+Pour oublier qu'en Jimmy Chooo t'as mal aux pieds
+
+Ca m'énerve tous ces gens qui font la queue chez Ladurée
+Tout ça pour des macarons
+Mais bon...
+Il parait qu'ils sont bons
+
+Ca m'éneeeeerve
+Toutes celles qui dansent sur le dance floor comme des princesses
+Ca m'éneeeeerve
+Si t'as la black card
+eh bah tu verras leurs fesses
+Ca m'éneeeeerve
+Toutes celles comme toi qui écoutent beaucoup trop fort la musique
+Ca m'éneeeeerve
+Moi je monte les voir et je leur dis avec le cric : "ça m'énerve"
+`;
+
+        document.querySelector("pre").textContent = words;
+
+        const speecher = new SpeechSynthesisUtterance(words);
+
+        speecher.pitch = 1;
+        speecher.rate = 1;
+
+        document.querySelector("#play").addEventListener("click", event => {
+
+            speecher.voice = voice;
+
+            synth.speak(speecher);
+        });
+
+        const pauseNode = document.querySelector("#pause");
+        pauseNode.addEventListener("click", event => {
+
+            if (synth.paused) {
+                pauseNode.textContent = "Pause";
+                synth.resume();
+            } else if (synth.speaking) {
+                pauseNode.textContent = "Resume";
+                synth.pause();
+            }
+        });
+
+        document.querySelector("#stop").addEventListener("click", event => {
+            synth.cancel();
+        });
+    </script>
+
+</body>
+</html>
