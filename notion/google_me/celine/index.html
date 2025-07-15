@@ -1,0 +1,156 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Céline Dion - J’irai ou tu iras</title>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(12, 1fr);
+        }
+
+        .grid-item {
+            grid-column: auto / span 6;
+        }
+
+        .container {
+            position: relative;
+            padding: 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>Céline Dion - J’irai ou tu iras</h1>
+
+        <div class="grid">
+
+            <div class="grid-item">
+                <pre></pre>
+            </div>
+
+            <div class="grid-item">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const synth = window.speechSynthesis;
+
+        const form = document.querySelector('form');
+
+        const voice = getVoiceFR();
+
+        function getVoiceFR() {
+            voices = synth.getVoices().find(function (voice) {
+                return voice.lang === 'fr-FR';
+            });
+        }
+
+        const words = `
+Chez moi les forêts se balancent
+Et les toits grattent le ciel
+Les eaux des torrents sont violence
+Et les neiges sont éternelles
+Chez moi les loups sont à nos portes
+Et tous les enfants les comprennent
+On entend les cris de New York
+Et les bateaux sur la Seine
+
+Va pour tes forêts tes loups tes gratte-ciel
+Va pour les torrents tes neiges éternelles
+J'habite où tes yeux brillent où ton sang coule
+Où des bras me serrent
+
+meuhmeuh, mon pays sera toi
+meuhmeuh qu'importe la place
+Qu'importe l'endroit
+
+Je veux des cocotiers des plages
+Et des palmiers sous le vent
+Le feu du soleil au visage
+Et le bleu des océans
+Je veux des chameaux des mirages
+Et des déserts envoûtants
+Des caravanes et des voyages comme sur les dépliants
+
+Va pour tes cocotiers tes rivages
+Va pour tes lagons tout bleu balançant
+J'habite où l'amour est un village
+Là où l'on m'attend
+
+meuhmeuh, mon pays sera toi
+meuhmeuh qu'importe la place
+Qu'importe l'endroit
+
+Prends tes clic et tes clac et tes rêves et ta vie
+Tes mots, tes tabernacles et ta langue d'ici
+L'escampette et la poudre et la fille de l'air
+Montre-moi tes édens montre-moi tes enfers
+Tes nord et puis tes sud et tes zestes d'ouest
+
+Chez moi les forêts se balancent
+Et les toits grattent le ciel
+Les eaux des torrents sont violence
+Et les neiges sont éternelles
+Chez moi les loups sont à nos portes
+Et tous les enfants les comprennent
+On entend les cris de New York
+Et les bateaux sur la Seine
+
+Qu'importe j'irai où bon te semble
+J'aime tes envies j'aime ta lumière
+Tous les paysages te ressemblent
+Quand tu les éclaires
+
+J'irai où tu iras, mon pays sera toi
+J'irai où tu iras qu'importe la place
+Qu'importe l'endroit
+`;
+
+        document.querySelector("pre").textContent = words;
+
+        const speecher = new SpeechSynthesisUtterance(words);
+
+        speecher.pitch = 1;
+        speecher.rate = 1;
+
+        document.querySelector("#play").addEventListener("click", event => {
+
+            speecher.voice = voice;
+
+            synth.speak(speecher);
+        });
+
+        const pauseNode = document.querySelector("#pause");
+        pauseNode.addEventListener("click", event => {
+
+            if (synth.paused) {
+                pauseNode.textContent = "Pause";
+                synth.resume();
+            } else if (synth.speaking) {
+                pauseNode.textContent = "Resume";
+                synth.pause();
+            }
+        });
+
+        document.querySelector("#stop").addEventListener("click", event => {
+            synth.cancel();
+        });
+    </script>
+
+</body>
+</html>

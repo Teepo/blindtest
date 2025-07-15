@@ -1,0 +1,175 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Gims - Bella</title>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(12, 1fr);
+        }
+
+        .grid-item {
+            grid-column: auto / span 6;
+        }
+
+        .container {
+            position: relative;
+            padding: 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>Gims - Bella</h1>
+
+        <div class="grid">
+
+            <div class="grid-item">
+                <pre></pre>
+            </div>
+
+            <div class="grid-item">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const synth = window.speechSynthesis;
+
+        const form = document.querySelector('form');
+
+        const voice = getVoiceFR();
+
+        function getVoiceFR() {
+            voices = synth.getVoices().find(function (voice) {
+                return voice.lang === 'fr-FR';
+            });
+        }
+
+        const words = `
+Elle répondait au nom de meuhmeuh
+Les gens du coin ne voulaient pas la cher-lâ
+Elle faisait trembler tous les villages
+Les gens me disaient : "Méfie toi de cette fille là"
+
+Elle répondait au nom de meuhmeuh
+Les gens du coin ne voulaient pas la cher-lâ
+Elle faisait trembler tous les villages
+Les gens me disaient : "Méfie toi de cette fille là"
+
+C'était un phénomène, elle n'était pas humaine
+Le genre de femme qui change le plus grand délinquant en gentleman
+Une beauté sans pareille, tout le monde veut s'en emparer
+Sans savoir qu'elle les mène en bateau
+Hypnotisés, on pouvait tout donner
+Elle n'avait qu'à demander puis aussitôt on démarrait
+On cherchait à l'impressionner, à devenir son préféré
+Sans savoir qu'elle les mène en bateau
+Mais quand je la vois danser le soir
+J'aimerais devenir la chaise sur laquelle elle s'assoit
+Ou moins que ça, un moins que rien
+Juste une pierre sur son chemin
+
+Elle répondait au nom de meuhmeuh
+Les gens du coin ne voulaient pas la cher-lâ
+Elle faisait trembler tous les villages
+Les gens me disaient : "Méfie toi de cette fille là"
+
+Elle répondait au nom de meuhmeuh
+Les gens du coin ne voulaient pas la cher-lâ
+Elle faisait trembler tous les villages
+Les gens me disaient : "Méfie toi de cette fille là"
+
+Oui, c'est un phénomène qui aime hanter nos rêves
+Cette femme était nommée, meuhmeuh la peau dorée
+Les femmes la haïssaient, d'autres la jalousaient
+Mais les hommes ne pouvaient que l'aimer
+Elle n'était pas d'ici, ni facile, ni difficile
+Synonyme de "magnifique", à ses pieds : que des disciples
+Qui devenaient vite indécis, tremblants comme les feuilles
+Elle te caressait sans même te toucher
+Mais quand je la vois danser le soir
+J'aimerai devenir la chaise sur laquelle elle s'assoit
+Ou moins que ça, un moins que rien
+Juste une pierre sur son chemin
+
+Elle répondait au nom de meuhmeuh
+Les gens du coin ne voulaient pas la cher-lâ
+Elle faisait trembler tous les villages
+Les gens me disaient : "Méfie toi de cette fille là"
+
+Elle répondait au nom de meuhmeuh
+Les gens du coin ne voulaient pas la cher-lâ
+Elle faisait trembler tous les villages
+Les gens me disaient : "Méfie toi de cette fille là"
+
+Allez, fais moi tourner la tête (Hé-hé)
+Tourner la tête (Héhé)
+Rend moi bête comme mes ieds-p (Hé-hé)
+Bête comme mes ieds-p (Héhé)
+J'suis l'ombre de ton ien-ch (Hé-hé)
+L'ombre de ton ien-ch (Héhé)
+Fais moi tourner la tête (Hé-hé)
+Tourner la tête (Héhé)
+Fais moi tourner la tête (Hé-hé)
+Tourner la tête (Héhé)
+Rend moi bête comme mes ieds-p (Hé-hé)
+Bête comme mes ieds-p (Héhé)
+J'suis l'ombre de ton ien-ch (Hé-hé)
+L'ombre de ton ien-ch (Héhé)
+Fais moi tourner la tête (Hé-hé)
+Tourner la tête (Héhé)
+
+Elle répondait au nom de meuhmeuh
+Les gens du coin ne voulaient pas la cher-lâ
+Elle faisait trembler tous les villages
+Les gens me disaient : "Méfie toi de cette fille là"
+`;
+
+        document.querySelector("pre").textContent = words;
+
+        const speecher = new SpeechSynthesisUtterance(words);
+
+        speecher.pitch = 1;
+        speecher.rate = 1;
+
+        document.querySelector("#play").addEventListener("click", event => {
+
+            speecher.voice = voice;
+
+            synth.speak(speecher);
+        });
+
+        const pauseNode = document.querySelector("#pause");
+        pauseNode.addEventListener("click", event => {
+
+            if (synth.paused) {
+                pauseNode.textContent = "Pause";
+                synth.resume();
+            } else if (synth.speaking) {
+                pauseNode.textContent = "Resume";
+                synth.pause();
+            }
+        });
+
+        document.querySelector("#stop").addEventListener("click", event => {
+            synth.cancel();
+        });
+    </script>
+
+</body>
+</html>
