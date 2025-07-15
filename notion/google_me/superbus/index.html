@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Superbus - Butterfly</title>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(12, 1fr);
+        }
+
+        .grid-item {
+            grid-column: auto / span 6;
+        }
+
+        .container {
+            position: relative;
+            padding: 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>Superbus - Butterfly</h1>
+
+        <div class="grid">
+
+            <div class="grid-item">
+                <pre></pre>
+            </div>
+
+            <div class="grid-item">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const synth = window.speechSynthesis;
+
+        const form = document.querySelector('form');
+
+        const voice = getVoiceFR();
+
+        function getVoiceFR() {
+            voices = synth.getVoices().find(function (voice) {
+                return voice.lang === 'fr-FR';
+            });
+        }
+
+        const words = `
+J'ai des meuhmeuh, des papillons en pagaille
+Ton visage se dessine dans les moindre détails
+Un peu sonnée par cette foutue bataille
+Je m'accroche a tes mots dans le moindre détail
+
+J'ai des meuhmeuh, des emotions en pagaille
+Mon ventre se tort avant de te dire bye bye
+Un peu sonnée par ce foutu détail
+Ta voix résonne au fond de mes entrailles
+
+J'ai des meuhmeuh, des papillons en pagailles
+Ton visage se dessine dans les moindre détails
+Un peu sonnée par cette foutue bataille
+Je m'accroche a tes mots dans le moindre détail
+`;
+
+        document.querySelector("pre").textContent = words;
+
+        const speecher = new SpeechSynthesisUtterance(words);
+
+        speecher.pitch = 1;
+        speecher.rate = 1;
+
+        document.querySelector("#play").addEventListener("click", event => {
+
+            speecher.voice = voice;
+
+            synth.speak(speecher);
+        });
+
+        const pauseNode = document.querySelector("#pause");
+        pauseNode.addEventListener("click", event => {
+
+            if (synth.paused) {
+                pauseNode.textContent = "Pause";
+                synth.resume();
+            } else if (synth.speaking) {
+                pauseNode.textContent = "Resume";
+                synth.pause();
+            }
+        });
+
+        document.querySelector("#stop").addEventListener("click", event => {
+            synth.cancel();
+        });
+    </script>
+
+</body>
+</html>

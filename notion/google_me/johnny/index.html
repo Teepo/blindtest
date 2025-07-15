@@ -1,0 +1,160 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Johnny Hallyday - Allumer le feu</title>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(12, 1fr);
+        }
+
+        .grid-item {
+            grid-column: auto / span 6;
+        }
+
+        .container {
+            position: relative;
+            padding: 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>Johnny Hallyday - Allumer le feu</h1>
+
+        <div class="grid">
+
+            <div class="grid-item">
+                <pre></pre>
+            </div>
+
+            <div class="grid-item">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const synth = window.speechSynthesis;
+
+        const form = document.querySelector('form');
+
+        const voice = getVoiceFR();
+
+        function getVoiceFR() {
+            voices = synth.getVoices().find(function (voice) {
+                return voice.lang === 'fr-FR';
+            });
+        }
+
+        const words = `
+Tourner le temps à l'orage
+Revenir à l'état sauvage
+Forcer les portes, les barrages
+Sortir le loup de sa cage
+
+Sentir le vent qui se déchaîne
+Battre le sang dans nos veines
+Monter le son des guitares
+Et le bruit des motos qui démarrent
+
+Il suffira d'une étincelle,
+D'un rien, d'un geste
+Il suffira d'une étincelle,
+D'un mot d'amour
+Pour...
+
+meuhmeuh
+Et faire danser les diables et les dieux
+meuhmeuh
+Et voir grandir la flamme dans vos yeux
+meuhmeuh
+
+Laisser derrière toutes nos peines
+Nos haches de guerre, nos problèmes
+Se libérer de nos chaînes
+Lâcher le lion dans l'arène
+
+Je veux la foudre et l'éclair
+L'odeur de poudre, le tonnerre
+Je veux la fête et les rires
+Je veux la foule en délire
+
+Il suffira d'une étincelle
+D'un rien, d'un contact
+Il suffira d'une étincelle
+D'un peu de jour
+Pour...
+
+meuhmeuh
+Et faire danser les diables et les dieux
+meuhmeuh
+Et voir grandir la flamme dans vos yeux
+meuhmeuh
+
+Il suffira d'une étincelle
+D'un rien, d'un geste
+Il suffira d'une étincelle
+D'un mot d'amour pour
+Pour, pour, pour...
+
+meuhmeuh
+Et faire danser les diables et les dieux
+meuhmeuh
+Et voir grandir la flamme dans vos yeux
+meuhmeuh
+Et faire danser les diables et les dieux
+meuhmeuh
+Et voir grandir la flamme dans vos yeux
+Allumer le feu
+Allumer le feu
+Allumer le feu
+Allumer le feu...
+`;
+
+        document.querySelector("pre").textContent = words;
+
+        const speecher = new SpeechSynthesisUtterance(words);
+
+        speecher.pitch = 1;
+        speecher.rate = 1;
+
+        document.querySelector("#play").addEventListener("click", event => {
+
+            speecher.voice = voice;
+
+            synth.speak(speecher);
+        });
+
+        const pauseNode = document.querySelector("#pause");
+        pauseNode.addEventListener("click", event => {
+
+            if (synth.paused) {
+                pauseNode.textContent = "Pause";
+                synth.resume();
+            } else if (synth.speaking) {
+                pauseNode.textContent = "Resume";
+                synth.pause();
+            }
+        });
+
+        document.querySelector("#stop").addEventListener("click", event => {
+            synth.cancel();
+        });
+    </script>
+
+</body>
+</html>

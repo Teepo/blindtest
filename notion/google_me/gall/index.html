@@ -1,0 +1,166 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <title>France Gall - Babacar</title>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(12, 1fr);
+        }
+
+        .grid-item {
+            grid-column: auto / span 6;
+        }
+
+        .container {
+            position: relative;
+            padding: 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>France Gall - Babacar</h1>
+
+        <div class="grid">
+
+            <div class="grid-item">
+                <pre></pre>
+            </div>
+
+            <div class="grid-item">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const synth = window.speechSynthesis;
+
+        const form = document.querySelector('form');
+
+        const voice = getVoiceFR();
+
+        function getVoiceFR() {
+            voices = synth.getVoices().find(function (voice) {
+                return voice.lang === 'fr-FR';
+            });
+        }
+
+        const words = `
+J'ai ton cœur qui tape qui cogne
+Dans mon corps et dans ma tête
+J'ai des images qui s'entêtent
+J'ai des ondes de chaleur
+Et comme des cris de douleur
+Qui circulent dans mes veines
+
+Quand je marche dans ma ville
+J'ai des moments qui défilent
+De ton pays d'ailleurs où tu meurs
+
+meuhmeuh
+Où es tu où es tu ?
+meuhmeuh
+Où es tu où es tu ?
+
+Je vis avec ton regard
+Depuis le jour de mon départ
+Tu grandis dans ma mémoire
+Ha ha, ha ha
+
+meuhmeuh
+Où es tu où es tu ?
+meuhmeuh
+Où es tu où es tu ?
+
+J'ai des mots qui frappent qui sonnent
+Et qui font mal comme personne
+C'est comme la vie qui s'arrête
+J'ai des mouv'ments de colère
+Sur le troisième millénaire
+Tout casser et tout refaire
+J'ai pas manqué de courage
+Mais c'était bien trop facile
+Te laisser en héritage un exil
+
+meuhmeuh
+Où es tu où es tu ?
+meuhmeuh
+Où es tu où es tu ?
+
+Ta princesse de hasard
+Est passée comme une étoile
+En emportant ton espoir
+Ha ha, ha ha
+
+meuhmeuh
+Où es tu, où es tu ?
+meuhmeuh
+Où es tu, où es tu ?
+
+J'ai ton cœur qui tape qui cogne
+Dans mon corps et dans ma tête
+J'ai des mots qui frappent qui sonnent
+C'est comme la vie qui s'arrête
+
+Ba-ba-car
+Où es tu, où es tu?
+Ba-ba-car
+Où es tu, où es tu?
+
+Ba-ba-car
+J'ai ton cœur qui tape qui cogne
+J'ai des images qui s'entêtent
+Ba-ba-car
+J'ai des mots qui frappent qui sonnent
+Dans mon corps et dans ma tête
+
+`;
+
+        document.querySelector("pre").textContent = words;
+
+        const speecher = new SpeechSynthesisUtterance(words);
+
+        speecher.pitch = 1;
+        speecher.rate = 1;
+
+        document.querySelector("#play").addEventListener("click", event => {
+
+            speecher.voice = voice;
+
+            synth.speak(speecher);
+        });
+
+        const pauseNode = document.querySelector("#pause");
+        pauseNode.addEventListener("click", event => {
+
+            if (synth.paused) {
+                pauseNode.textContent = "Pause";
+                synth.resume();
+            } else if (synth.speaking) {
+                pauseNode.textContent = "Resume";
+                synth.pause();
+            }
+        });
+
+        document.querySelector("#stop").addEventListener("click", event => {
+            synth.cancel();
+        });
+    </script>
+
+</body>
+</html>

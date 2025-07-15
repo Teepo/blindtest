@@ -1,0 +1,164 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Magic System - Premier Gaou</title>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(12, 1fr);
+        }
+
+        .grid-item {
+            grid-column: auto / span 6;
+        }
+
+        .container {
+            position: relative;
+            padding: 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>Magic System - Premier Gaou</h1>
+
+        <div class="grid">
+
+            <div class="grid-item">
+                <pre></pre>
+            </div>
+
+            <div class="grid-item">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const synth = window.speechSynthesis;
+
+        const form = document.querySelector('form');
+
+        const voice = getVoiceFR();
+
+        function getVoiceFR() {
+            voices = synth.getVoices().find(function (voice) {
+                return voice.lang === 'fr-FR';
+            });
+        }
+
+        const words = `
+C'est dans ma galère que la go antou m'a quitté, oh (Ah)
+
+Quand j'avais un peu
+Matin midi soir
+On était ensemble
+A la rue Princesse
+Aux mille maquis
+Asalfo payait les poulets
+L'argent est fini antou a changé de côté
+Wari ban nan, elle a changé de copain
+
+Nan guin, nan-nan guin nan wan
+
+Dieu merci pour moi, eh, je savais chanter un peu
+J'ai fait ma cassette, oh, on me voit à la télé, oh
+Matin midi soir c'est moi je chante à la radio
+Antou a vu ça elle dit le gaou a percé, oh
+Attends je vais partir le couper
+
+Et on dit premier gaou n'est pas gaou, oh
+C'est deuxième gaou qui est niata, oh (Ah)
+On dit premier gaou n'est pas gaou, oh (Ah, nan guin nan wan)
+C'est deuxième gaou qui est niata, oh (Ah)
+
+Dimanche matin eh koko on frappe à ma porte
+A ma grande surprise, oh, c'est la go Antou je vois
+On s'embrasse j'ai dit oh y'a longtemps qu'on s'est plus revu
+Elle veut me mentir, oh, elle dit chéri j'avais voyagé
+Je suis de retour
+Je t'appartiens
+Prends-moi cadeau, fais ce que tu veux
+
+Mais on dit premier gaou n'est pas gaou oh
+C'est deuxième gaou qui est niata oh ah
+Et on dit premier gaou n'est pas gaou oh
+C'est deuxième gaou qui est niata oh ah
+
+J'ai dit chéri coco qu'est-ce que tu veux manger
+Sans même hésiter elle me dit poulet braisé
+
+Quand on te dit premier gaou n'est pas gaou oh
+C'est deuxième gaou qui est niata oh
+J'ai dit chéri coco eh c'est poulet tu veux manger
+Poulet est trop petit ça peut pas te rassasier
+C'est caïman braisé, je vais te donner
+Kedjenou d'éléphant, tu vas manger
+Nan guin nan wan, nan guin nan wan
+
+Elle est fâchée, elle dit elle s'en va à la maison
+Si elle va à la maison population va me tuer
+Je lui ai demandé pardon, elle a accepté
+A un moment donné, elle a tout gâté
+Elle est quittée dans poulet, elle s'en va dans aloko
+Si c'est aloko c'est pas compliqué
+C'est plantation de bananes
+Tu vas griller
+Au lieu de fourchette, ça peut pas bien piquer
+C'est avec râteau, tu vas manger oh
+
+Nan guin nan wan, nan guin nan wan
+Nan guin nan wan, nan guin nan wan
+
+Et on dit premier gaou n'est pas gaou oh
+C'est deuxième gaou qui est niata oh ah
+Et on dit premier gaou n'est pas gaou oh
+C'est deuxième gaou qui est niata oh ah
+`;
+
+        document.querySelector("pre").textContent = words;
+
+        const speecher = new SpeechSynthesisUtterance(words);
+
+        speecher.pitch = 1;
+        speecher.rate = 1;
+
+        document.querySelector("#play").addEventListener("click", event => {
+
+            speecher.voice = voice;
+
+            synth.speak(speecher);
+        });
+
+        const pauseNode = document.querySelector("#pause");
+        pauseNode.addEventListener("click", event => {
+
+            if (synth.paused) {
+                pauseNode.textContent = "Pause";
+                synth.resume();
+            } else if (synth.speaking) {
+                pauseNode.textContent = "Resume";
+                synth.pause();
+            }
+        });
+
+        document.querySelector("#stop").addEventListener("click", event => {
+            synth.cancel();
+        });
+    </script>
+
+</body>
+</html>

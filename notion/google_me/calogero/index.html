@@ -1,0 +1,189 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Calogero feat Passi - Face à la mer</title>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(12, 1fr);
+        }
+
+        .grid-item {
+            grid-column: auto / span 6;
+        }
+
+        .container {
+            position: relative;
+            padding: 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>Calogero feat Passi - Face à la mer</h1>
+
+        <div class="grid">
+
+            <div class="grid-item">
+                <pre></pre>
+            </div>
+
+            <div class="grid-item">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const synth = window.speechSynthesis;
+
+        const form = document.querySelector('form');
+
+        const voice = getVoiceFR();
+
+        function getVoiceFR() {
+            voices = synth.getVoices().find(function (voice) {
+                return voice.lang === 'fr-FR';
+            });
+        }
+
+        const words = `
+On ne choisit ni son origine, ni sa couleur de peau
+Comme on rêve d'une vie de château, quand on vit le ghetto
+Naître l'étau autour du cou comme Cosette pour Hugo
+Être en treillis dans le conflit et prier le Très Haut.
+
+Fils du C.O.N.G.O. cette haine j'ai au
+M.I.C.R.O. j'ai l' poids des mots
+Sortir d'en bas, rêver de déchirer ce tableau
+Fait d'armes, de larmes,
+Fait de sang et sanglots.
+
+Face à la mer
+J'aurais dû grandir
+Face contre terre
+J'aurais pu mourir
+Je me relève
+Je prends mon dernier rêve
+
+Tous deux la même dalle
+Et tous deux déçus
+
+Je prends mon dernier rêve
+
+La sécheresse sur une terre où on ne cesse de semer
+Tristesse dans des yeux qui ne peuvent pleurer
+J'ai beaucoup de rêves lointains, je me suis tant rebellé,
+J'ai bu beaucoup de baratin et ça m'a trop saoulé.
+Dans la vie y a les tapes au fond et les tapes à côté,
+Les "t'as pas un euro?" ou la tape à l'arrachée,
+Y a l'état, les R.M.istes, les " t'as qu'à taffer"
+Si t'es en bas faut cravacher, t'as qu'à pas lâcher.
+T'as pas connu ça toi, l'envie d'empocher les patates,
+Être à gauche droite face à la mer loin des galères.
+T'as pas connu ça, l'envie de t'en sortir distribuer des patates
+Des gauches droites avec un air patibulaire
+
+Face à la mer
+J'aurais dû grandir
+Face contre terre
+J'aurais pu mourir
+Je me relève
+Je prends mon dernier rêve
+
+Tous deux la même dalle
+Et tous deux déçus
+
+Je prends mon dernier rêve
+Face à la mer
+C'est toi qui résistes
+Face contre terre
+Ton nom sur la liste
+de tout ton être
+Cité à comparaître
+
+C'est l'histoire de cette plume qui s'étouffe dans le goudron,
+d'cette matière grise dont le pays n'a pas fait acquisition,
+on se relève, on repart à fond, on vise le Panthéon,
+j'en place une à ceux qui en ont, qui rêvent consécration,
+la dalle la niak, je l'ai comme mes potes l'ont
+on veut toucher le ciel étoilé sans baisser le pantalon.
+Trop peu bonnes fées et trop de Cendrillons.
+Calo-Passi 2.0.0.4. action
+
+Face à la mer
+J'aurais dû grandir
+Face contre terre
+J'aurais pu mourir
+Je me relève
+Je prends mon dernier rêve
+
+Tous deux la même dalle
+on est tous deux déçus
+
+Je prends mon dernier rêve
+
+Tous deux la même dalle
+on vise tous deux au-dessus
+
+Je prends mon dernier rêve
+
+On ne choisit ni son origine, ni sa couleur de peau
+comme on rêve d'une vie de château, quand on vit le ghetto
+naître l'étau autour du cou comme Cosette pour Hugo
+être en treillis dans le conflit et prier le Très Haut.
+Fils du C.O.N.G.O. cette haine j'ai au
+M.I.C.R.O. j'ai l'poids des mots
+
+Face à la mer
+On veut tous grandir
+Calo-Passi
+Trop jeunes pour mourir
+`;
+
+        document.querySelector("pre").textContent = words;
+
+        const speecher = new SpeechSynthesisUtterance(words);
+
+        speecher.pitch = 1;
+        speecher.rate = 1;
+
+        document.querySelector("#play").addEventListener("click", event => {
+
+            speecher.voice = voice;
+
+            synth.speak(speecher);
+        });
+
+        const pauseNode = document.querySelector("#pause");
+        pauseNode.addEventListener("click", event => {
+
+            if (synth.paused) {
+                pauseNode.textContent = "Pause";
+                synth.resume();
+            } else if (synth.speaking) {
+                pauseNode.textContent = "Resume";
+                synth.pause();
+            }
+        });
+
+        document.querySelector("#stop").addEventListener("click", event => {
+            synth.cancel();
+        });
+    </script>
+
+</body>
+</html>

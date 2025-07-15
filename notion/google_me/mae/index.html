@@ -1,0 +1,174 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Christophe Maé - On S'attache</title>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(12, 1fr);
+        }
+
+        .grid-item {
+            grid-column: auto / span 6;
+        }
+
+        .container {
+            position: relative;
+            padding: 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>Christophe Maé - On S'attache</h1>
+
+        <div class="grid">
+
+            <div class="grid-item">
+                <pre></pre>
+            </div>
+
+            <div class="grid-item">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const synth = window.speechSynthesis;
+
+        const form = document.querySelector('form');
+
+        const voice = getVoiceFR();
+
+        function getVoiceFR() {
+            voices = synth.getVoices().find(function (voice) {
+                return voice.lang === 'fr-FR';
+            });
+        }
+
+        const words = `
+J'ai pas le style
+Pourtant pas hostile
+Mais c'est pas pour moi le costard uniforme
+
+J'ai pas l'intégral
+Du gendre idéal
+J'aurais toujours l'impression qu'on m'espionne
+
+Pourtant pas contre l'amour
+Je s'rais même plutôt pour
+Mais c'est pas pour autant qu'il faut
+
+Qu'on se meuhmeuh
+Et qu'on s'empoisonne
+Avec une flèche
+Qui nous illusionnes
+
+Faut pas qu'on se meuhmeuh
+Et qu'on s'emprisonnes
+Mais rien n'empêche
+Que l'on s'abandonne, non !
+
+D'un chef de file
+J'en ai pas l'profil
+Mais sur l'oreiller j'aime pas qu'on me questionne
+
+Je suis pas James Bond
+Entouré de belles blondes
+J'envie même pas les hommes
+Qui papillonnent
+
+Pourtant pas contre l'amour
+J'attends plutôt mon tour
+Mais c'est pas pour autant qu'il faut
+
+Qu'on se meuhmeuh
+J'attends plutôt mon tour
+Mais c'est pas pour autant qu'il faut
+
+Qu'on se meuhmeuh
+Et qu'on s'empoisonne
+Avec une flèche
+Qui nous illusionne, faut pas
+
+Qu'on se meuhmeuh
+Et qu'on s'emprisonne
+Mais rien n'empêche
+Que l'on s'abandonne, non
+
+On le sait bien
+Le quotidien ça nous tue, ça nous tient
+Ca nous fait mal
+Rien de plus normal
+Mais tu t'enfiles dans la file
+Mais faut pas que tu dépasses
+A chaque fois, que tu resquilles, mais t'es qui ?
+T'es pas normal
+
+On s'attache
+Et qu'on s'empoisonne
+Avec une flèche
+Qui nous illusionne, faut pas, non
+
+Qu'on s'attache
+Et qu'on s'empoisonne
+Mais rien n'empêche
+Que l'on s'abandonne, non, non !
+
+Non, je sais pas faire comme
+Après tout je suis qu'un homme
+Non je veux pas vivre comme
+Dans la case de l'oncle Tom
+En papa Dalton
+Me retrouver dans un album
+
+Après tout je ne suis qu'un homme
+`;
+
+        document.querySelector("pre").textContent = words;
+
+        const speecher = new SpeechSynthesisUtterance(words);
+
+        speecher.pitch = 1;
+        speecher.rate = 1;
+
+        document.querySelector("#play").addEventListener("click", event => {
+
+            speecher.voice = voice;
+
+            synth.speak(speecher);
+        });
+
+        const pauseNode = document.querySelector("#pause");
+        pauseNode.addEventListener("click", event => {
+
+            if (synth.paused) {
+                pauseNode.textContent = "Pause";
+                synth.resume();
+            } else if (synth.speaking) {
+                pauseNode.textContent = "Resume";
+                synth.pause();
+            }
+        });
+
+        document.querySelector("#stop").addEventListener("click", event => {
+            synth.cancel();
+        });
+    </script>
+
+</body>
+</html>

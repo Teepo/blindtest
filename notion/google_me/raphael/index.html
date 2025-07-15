@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Raphaël - Caravane</title>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(12, 1fr);
+        }
+
+        .grid-item {
+            grid-column: auto / span 6;
+        }
+
+        .container {
+            position: relative;
+            padding: 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>Raphaël - Caravane</h1>
+
+        <div class="grid">
+
+            <div class="grid-item">
+                <pre></pre>
+            </div>
+
+            <div class="grid-item">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const synth = window.speechSynthesis;
+
+        const form = document.querySelector('form');
+
+        const voice = getVoiceFR();
+
+        function getVoiceFR() {
+            voices = synth.getVoices().find(function (voice) {
+                return voice.lang === 'fr-FR';
+            });
+        }
+
+        const words = `
+Est-ce que j'en ai les larmes aux yeux
+Que nos mains ne tiennent plus ensemble
+Moi aussi je tremble un peu
+Puisque je ne vais plus attendre
+
+Est-ce qu'on va reprendre la route
+Est-ce que nous sommes proches de la nuit
+Est-ce que ce monde a le vertige
+Est-ce qu'on sera un jour puni
+
+Est-ce que je rampe comme un enfant
+Est-ce que je n'ai plus de chemise
+C'est le Bon Dieu qui nous fait
+C'est le Bon Dieu qui nous brise
+
+Est-ce que rien ne peut arriver
+Puisqu'il faut qu'il y ait une justice
+Je suis né dans cette caravane
+Mais nous partons allez viens
+Allez viens
+
+Tu lu tu, tu lu tu...
+
+Et parce que ma peau est la seule que j'ai
+Que bientôt mes os seront dans le vent
+Je suis né dans cette caravane
+Et nous partons allez viens
+Allez viens
+
+Tu lu tu, tu lu tu...
+Allez viens
+Tu lu tu, tu lu tu...
+`;
+
+        document.querySelector("pre").textContent = words;
+
+        const speecher = new SpeechSynthesisUtterance(words);
+
+        speecher.pitch = 1;
+        speecher.rate = 1;
+
+        document.querySelector("#play").addEventListener("click", event => {
+
+            speecher.voice = voice;
+
+            synth.speak(speecher);
+        });
+
+        const pauseNode = document.querySelector("#pause");
+        pauseNode.addEventListener("click", event => {
+
+            if (synth.paused) {
+                pauseNode.textContent = "Pause";
+                synth.resume();
+            } else if (synth.speaking) {
+                pauseNode.textContent = "Resume";
+                synth.pause();
+            }
+        });
+
+        document.querySelector("#stop").addEventListener("click", event => {
+            synth.cancel();
+        });
+    </script>
+
+</body>
+</html>
