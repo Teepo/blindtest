@@ -1,0 +1,17 @@
+.grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.grid-item {
+    grid-column: auto / span 6;
+}
+
+.container {
+    position: relative;
+    padding: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+}

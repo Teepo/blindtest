@@ -4,34 +4,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
 
-    <title>France Gall - Babacar</title>
+    <title></title>
 
-    <style>
-        .grid {
-            display: grid;
-            grid-gap: 1rem;
-            grid-template-columns: repeat(12, 1fr);
-        }
-
-        .grid-item {
-            grid-column: auto / span 6;
-        }
-
-        .container {
-            position: relative;
-            padding: 15px;
-            max-width: 1000px;
-            margin: 0 auto;
-            background-color: #fff;
-        }
-    </style>
+    <link rel="stylesheet" href="./../app.css" />
+    <script src="./../app.js"></script>
 </head>
 
 <body>
 
     <section class="container">
 
-        <h1>France Gall - Babacar</h1>
+        <h1></h1>
 
         <div class="grid">
 
@@ -48,17 +31,7 @@
     </section>
 
     <script>
-        const synth = window.speechSynthesis;
-
-        const form = document.querySelector('form');
-
-        const voice = getVoiceFR();
-
-        function getVoiceFR() {
-            voices = synth.getVoices().find(function (voice) {
-                return voice.lang === 'fr-FR';
-            });
-        }
+        const title = 'France Gall - Babacar';
 
         const words = `
 J'ai ton cœur qui tape qui cogne
@@ -128,38 +101,9 @@ J'ai des images qui s'entêtent
 Ba-ba-car
 J'ai des mots qui frappent qui sonnent
 Dans mon corps et dans ma tête
-
 `;
 
-        document.querySelector("pre").textContent = words;
-
-        const speecher = new SpeechSynthesisUtterance(words);
-
-        speecher.pitch = 1;
-        speecher.rate = 1;
-
-        document.querySelector("#play").addEventListener("click", event => {
-
-            speecher.voice = voice;
-
-            synth.speak(speecher);
-        });
-
-        const pauseNode = document.querySelector("#pause");
-        pauseNode.addEventListener("click", event => {
-
-            if (synth.paused) {
-                pauseNode.textContent = "Pause";
-                synth.resume();
-            } else if (synth.speaking) {
-                pauseNode.textContent = "Resume";
-                synth.pause();
-            }
-        });
-
-        document.querySelector("#stop").addEventListener("click", event => {
-            synth.cancel();
-        });
+        init();
     </script>
 
 </body>
