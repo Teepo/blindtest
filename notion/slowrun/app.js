@@ -19,7 +19,7 @@ document.querySelector('h1').textContent    = title;
   // Variables playback
   let isPlaying = false;
   let position = 0; // en secondes
-  let tempoPitch = 1.0;
+  let tempoPitch = 0.5;
 
   // Charge le fichier audio
   async function loadAudio() {
