@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="stylesheet" href="./../app.css" />
+    <script type="module" src="./../app.js"></script>
+</head>
+<body>
+
+    <h1></h1>
+
+    <button id="playBtn" disabled>Lecture</button>
+
+    <div>
+        <div class="label-row">
+            <label for="rateSlider">Pitch & Tempo :</label>
+            <span id="rateVal">1.00x</span>
+        </div>
+        <input type="range" id="rateSlider" min="0.5" max="2" step="0.1" value="1.0" />
+    </div>
+
+    <div>
+        <div class="label-row">
+            <label for="progressSlider">Progression :</label>
+            <span id="currentTime">0:00</span>
+        </div>
+        <input type="range" id="progressSlider" min="0" max="100" value="0" step="0.01" />
+    </div>
+
+    <script>
+        const title = 'Evanescence - Going Under';
+    </script>
+</body>
+</html>
